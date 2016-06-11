@@ -5,10 +5,10 @@ var app = angular.module( 'myApp', ['ngRoute'] );
         $routeProvider
 
             // route for the home page
-            // .when('/', {
-            //     templateUrl : 'MapQuest/mapQuest.html',
-            //     controller  : 'mainQuestController'
-            // })
+            .when('/', {
+                templateUrl : 'MapQuest/mapQuest.html',
+                controller  : 'mainQuestController'
+            })
 
             .when('/mapQuest', {
                 templateUrl : 'MapQuest/mapQuest.html',
