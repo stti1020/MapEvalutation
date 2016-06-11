@@ -1,7 +1,6 @@
 
 angular.module( 'myApp')
-	.controller('mainQuestController', function($scope) {
-	    $scope.message = 'mainQuestController';
+	.controller('mapQuestController', function($scope) {
 
 	var map, dir;
 

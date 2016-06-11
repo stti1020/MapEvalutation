@@ -7,12 +7,17 @@ var app = angular.module( 'myApp', ['ngRoute'] );
             // route for the home page
             .when('/', {
                 templateUrl : 'MapQuest/mapQuest.html',
-                controller  : 'mainQuestController'
+                controller  : 'mapQuestController'
             })
 
             .when('/mapQuest', {
                 templateUrl : 'MapQuest/mapQuest.html',
-                controller  : 'mainQuestController'
+                controller  : 'mapQuestController'
+            })
+
+            .when('/mapBox', {
+                templateUrl : 'MapBox/mapBox.html',
+                controller  : 'mapBoxController'
             })
     });
 

@@ -4,8 +4,17 @@
 	<!-- load own stylesheet -->
     <link rel="stylesheet" href="style/style.css" />
 
-	 <!-- load own leaflet via CDN -->
+	 <!-- load own mapQuest/leaflet via CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.css" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.js"></script>
+    <script src="https://www.mapquestapi.com/sdk/leaflet/v2.s/mq-map.js?key=hOXUtG9bAZapZOAgGFSiNyhGh5GGfe2K"></script>
+    <script src="https://www.mapquestapi.com/sdk/leaflet/v2.s/mq-routing.js?key=hOXUtG9bAZapZOAgGFSiNyhGh5GGfe2K"></script>
+
+	 <!-- load own mapBox via CDN -->
+	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.css' rel='stylesheet' />
+	<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v2.0.0/mapbox-gl-directions.js'></script>
+	<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v2.0.0/mapbox-gl-directions.css' type='text/css' />
 
 	 <!-- load bootstrap and fontawesome via CDN -->
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
@@ -17,9 +26,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.js"></script>
-    <script src="https://www.mapquestapi.com/sdk/leaflet/v2.s/mq-map.js?key=hOXUtG9bAZapZOAgGFSiNyhGh5GGfe2K"></script>
-    <script src="https://www.mapquestapi.com/sdk/leaflet/v2.s/mq-routing.js?key=hOXUtG9bAZapZOAgGFSiNyhGh5GGfe2K"></script>
+
 
 	</head>
 
@@ -27,7 +34,7 @@
 		<nav id="navigation" class="clearfix">
 		  <ul>
 		    <li><a href="#mapQuest">MapQuest</a></li>
-		    <li><a href="#">GoogleMap</a></li>
+		    <li><a href="#mapBox">MapBox</a></li>
 		  </ul>
 		</nav>
 
@@ -39,6 +46,8 @@
 		<!-- import angular controller -->
 		<script src="app.js"></script>
 	    <script src="mapQuest/mapQuestController.js"></script>
+	    <script src="mapBox/mapBoxController.js"></script>
+
 
 	</body>
 </html>>
