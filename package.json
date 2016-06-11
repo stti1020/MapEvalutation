@@ -1,0 +1,9 @@
+{
+  "name": "test",
+  "version": "2.4.0",
+  "private": true,
+  "dependencies": {
+    "grunt": "^0.4.1",
+    "grunt-http-server": "^2.0.0"
+  }
+}
