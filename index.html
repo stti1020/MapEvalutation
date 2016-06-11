@@ -1,0 +1,44 @@
+<html>
+	<head>
+
+	<!-- load own stylesheet -->
+    <link rel="stylesheet" href="style/style.css" />
+
+	 <!-- load own leaflet via CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.css" />
+
+	 <!-- load bootstrap and fontawesome via CDN -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+	 
+
+
+     <!-- load angular and angular route via CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.js"></script>
+    <script src="https://www.mapquestapi.com/sdk/leaflet/v2.s/mq-map.js?key=hOXUtG9bAZapZOAgGFSiNyhGh5GGfe2K"></script>
+    <script src="https://www.mapquestapi.com/sdk/leaflet/v2.s/mq-routing.js?key=hOXUtG9bAZapZOAgGFSiNyhGh5GGfe2K"></script>
+
+	</head>
+
+	<body ng-app="myApp">
+		<nav id="navigation" class="clearfix">
+		  <ul>
+		    <li><a href="#mapQuest">MapQuest</a></li>
+		    <li><a href="#">GoogleMap</a></li>
+		  </ul>
+		</nav>
+
+		<!-- the displayed view -->
+		<div id="main">
+			<div ng-view></div>
+		</div>
+
+		<!-- import angular controller -->
+		<script src="app.js"></script>
+	    <script src="mapQuest/mapQuestController.js"></script>
+
+	</body>
+</html>>
