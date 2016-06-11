@@ -19,5 +19,10 @@ var app = angular.module( 'myApp', ['ngRoute'] );
                 templateUrl : 'MapBox/mapBox.html',
                 controller  : 'mapBoxController'
             })
+
+            .when('/bingMaps', {
+                templateUrl : 'BingMaps/bingMaps.html',
+                controller  : 'bingMapsController'
+            })
     });
 

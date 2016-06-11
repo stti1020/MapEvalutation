@@ -1,0 +1,19 @@
+<div id='printoutPanel'></div>
+
+<div id='myMap' style='width: 100vw; height: 100vh;'></div>
+<script type='text/javascript'>
+    function loadMapScenario() {
+        var map = new Microsoft.Maps.Map(document.getElementById('myMap'), {
+            credentials: 'AumiiZSV9WkDETkGnKSVkx4vgUJD4YiaPcDIxeppxcSkUANKPn0w6KPR6UKDf3ED',
+            center: new Microsoft.Maps.Location(47.606209, -122.332071),
+            zoom: 12
+        });
+        Microsoft.Maps.loadModule('Microsoft.Maps.Directions', function () {
+            var directionsManager = new Microsoft.Maps.Directions.DirectionsManager(map);
+            directionsManager.setRenderOptions({ itineraryContainer: document.getElementById('printoutPanel') });
+            directionsManager.showInputPanel('printoutPanel');
+        });
+        
+    }
+</script>
+<script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=loadMapScenario' async defer></script>
