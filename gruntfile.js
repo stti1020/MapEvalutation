@@ -4,7 +4,7 @@ Click here to learn more. http://go.microsoft.com/fwlink/?LinkID=513275&clcid=0x
 */
 module.exports = function (grunt) {
 	
-	grunt.loadNpmTasks('grunt-http-server');
+
 	
     grunt.initConfig({
 		
@@ -33,4 +33,6 @@ module.exports = function (grunt) {
  
 		}
     });
+
+	grunt.loadNpmTasks('grunt-http-server');
 };
