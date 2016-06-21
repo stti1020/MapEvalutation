@@ -1,18 +1,18 @@
-var app = angular.module( 'myApp', ['ngRoute'] );
+var app = angular.module( 'myApp', ['ngRoute', 'leaflet-directive'] );
 
 	// configure our routes
     app.config(function($routeProvider) {
         $routeProvider
 
-            // route for the home page
+            //route for the standard page
             .when('/', {
-                templateUrl : 'MapQuest/mapQuest.html',
-                controller  : 'mapQuestController'
+                templateUrl : 'Leaflet/leaflet.html',
+                controller  : 'leafletController'
             })
 
-            .when('/mapQuest', {
-                templateUrl : 'MapQuest/mapQuest.html',
-                controller  : 'mapQuestController'
+            .when('/leaflet', {
+                templateUrl : 'Leaflet/leaflet.html',
+                controller  : 'leafletController'
             })
 
             .when('/mapBox', {
@@ -20,9 +20,9 @@ var app = angular.module( 'myApp', ['ngRoute'] );
                 controller  : 'mapBoxController'
             })
 
-            .when('/bingMaps', {
-                templateUrl : 'BingMaps/bingMaps.html',
-                controller  : 'bingMapsController'
+            .when('/mapQuest', {
+                templateUrl : 'MapQuest/mapQuest.html',
+                controller  : 'mapQuestController'
             })
     });
 

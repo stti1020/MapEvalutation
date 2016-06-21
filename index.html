@@ -1,74 +1,56 @@
 <html>
 	<head>
+		<!-- load own stylesheet -->
+	    <link rel="stylesheet" href="style/style.css" />
 
-	<!-- load own stylesheet -->
-    <link rel="stylesheet" href="style/style.css" />
+		<!-- load own leaflet CDN -->
+		 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+		 <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
 
-	 <!-- load own mapQuest/leaflet via CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.css" />
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.js"></script>
-    <script src="https://www.mapquestapi.com/sdk/leaflet/v2.s/mq-map.js?key=hOXUtG9bAZapZOAgGFSiNyhGh5GGfe2K"></script>
-    <script src="https://www.mapquestapi.com/sdk/leaflet/v2.s/mq-routing.js?key=hOXUtG9bAZapZOAgGFSiNyhGh5GGfe2K"></script>
+		 <!-- load own mapBox via CDN -->
+		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.js'></script>
+	    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.css' rel='stylesheet' />
+		<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v2.0.0/mapbox-gl-directions.js'></script>
+		<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v2.0.0/mapbox-gl-directions.css' type='text/css' />
 
-	 <!-- load own mapBox via CDN -->
-	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.css' rel='stylesheet' />
-	<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v2.0.0/mapbox-gl-directions.js'></script>
-	<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v2.0.0/mapbox-gl-directions.css' type='text/css' />
+		 <!-- load own mapQuest/leaflet via CDN -->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.css" />
+	     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.js"></script>
+	    <script src="https://www.mapquestapi.com/sdk/leaflet/v2.s/mq-map.js?key=hOXUtG9bAZapZOAgGFSiNyhGh5GGfe2K"></script>
+	    <script src="https://www.mapquestapi.com/sdk/leaflet/v2.s/mq-routing.js?key=hOXUtG9bAZapZOAgGFSiNyhGh5GGfe2K"></script>
 
+		 <!-- load bootstrap and fontawesome via CDN -->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
 
-	 <!-- load bootstrap and fontawesome via CDN -->
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
-
-     <!-- load angular and angular route via CDN -->
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
-
-
-
+	     <!-- load angular and angular route via CDN -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
 	</head>
 
 	<body ng-app="myApp">
+
+		<!-- the navigation -->
 		<nav id="navigation" class="clearfix">
 		  <ul>
-		    <li><a href="#mapQuest">MapQuest</a></li>
+		    <li><a href="#leaflet">Leaflet</a></li>
 		    <li><a href="#mapBox">MapBox</a></li>
-		    <li><a href="#bingMaps">BingMaps</a></li>
-
+		    <li><a href="#mapQuest">MapQuest</a></li>
 		  </ul>
 		</nav>
 
-		<!-- the displayed view -->
+		<!-- the displayed view in our single page appication -->
 		<div id="main">
 			<div ng-view></div>
 		</div>
 
-		        <div id='printoutPanel'></div>
-        
-        <div id='myMap' style='width: 100vw; height: 100vh;'></div>
-        <script type='text/javascript'>
-            function loadMapScenario() {
-                var map = new Microsoft.Maps.Map(document.getElementById('myMap'), {
-                    credentials: 'Your Bing Maps Key',
-                    center: new Microsoft.Maps.Location(47.606209, -122.332071),
-                    zoom: 12
-                });
-                Microsoft.Maps.loadModule('Microsoft.Maps.Directions', function () {
-                    var directionsManager = new Microsoft.Maps.Directions.DirectionsManager(map);
-                    directionsManager.setRenderOptions({ itineraryContainer: document.getElementById('printoutPanel') });
-                    directionsManager.showInputPanel('printoutPanel');
-                });
-                
-            }
-        </script>
-        <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=loadMapScenario' async defer></script>
+		<!-- import libs -->
+		<script src="node_modules/angular-leaflet-directive/dist/angular-leaflet-directive.js"></script>
 
 		<!-- import angular controller -->
 		<script src="app.js"></script>
 	    <script src="mapQuest/mapQuestController.js"></script>
 	    <script src="mapBox/mapBoxController.js"></script>
-	    <script src="bingMaps/bingMapsController.js"></script>
-
+	    <script src="leaflet/laefletController.js"></script>
 	</body>
 </html>>

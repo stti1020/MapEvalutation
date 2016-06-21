@@ -3,6 +3,7 @@
   "version": "2.4.0",
   "private": true,
   "dependencies": {
+    "angular-leaflet-directive": "^0.10.0",
     "grunt": "^0.4.1",
     "grunt-cli": "^1.2.0",
     "grunt-http-server": "^2.0.0"
