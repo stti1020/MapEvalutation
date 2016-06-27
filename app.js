@@ -1,4 +1,6 @@
-var app = angular.module( 'myApp', ['ngRoute', 'leaflet-directive'] );
+var app = angular.module( 'myApp', ['ngRoute', 'nemLogging','ui-leaflet'] );
+// var app = angular.module( 'myApp', ['ngRoute', 'leaflet-directive', 'nemLogging','ui-leaflet'] );
+
 
 	// configure our routes
     app.config(function($routeProvider) {
