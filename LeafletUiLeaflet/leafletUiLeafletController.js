@@ -20,9 +20,11 @@ angular.module( 'myApp')
 		        L.latLng(49.014575, 8.388844)
 		    ],
 		   
- 			routeWhileDragging: true
+ 			routeWhileDragging: true,
+ 			geocoder: L.Control.Geocoder.nominatim()
 
 		}).addTo(map);
+
 
 		L.marker([49.011398, 8.423681]).addTo(map)
 		    .bindPopup('Von Karl Wilhelm Platz')

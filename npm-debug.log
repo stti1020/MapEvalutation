@@ -1,0 +1,1870 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'leaflet-control-geocoder' ]
+2 info using npm@3.8.3
+3 info using node@v5.10.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData leaflet-control-geocoder
+8 silly fetchNamedPackageData leaflet-control-geocoder
+9 silly mapToRegistry name leaflet-control-geocoder
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'leaflet-control-geocoder',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'leaflet-control-geocoder',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/leaflet-control-geocoder
+14 verbose request uri https://registry.npmjs.org/leaflet-control-geocoder
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 20:59:41
+17 verbose request id b6b0e0caaa9fb6e6
+18 verbose etag "F537Z9ONB0WNZLR70QE7U6WB0"
+19 http request GET https://registry.npmjs.org/leaflet-control-geocoder
+20 http 304 https://registry.npmjs.org/leaflet-control-geocoder
+21 verbose headers { date: 'Mon, 27 Jun 2016 18:59:44 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"F537Z9ONB0WNZLR70QE7U6WB0"',
+21 verbose headers   age: '223',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-fra1241-FRA',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '1',
+21 verbose headers   'x-timer': 'S1467053984.090994,VS0,VE0',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Mon, 27 Jun 2016 18:59:44 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"F537Z9ONB0WNZLR70QE7U6WB0"',
+22 silly get     age: '223',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-fra1241-FRA',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '1',
+22 silly get     'x-timer': 'S1467053984.090994,VS0,VE0',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose etag https://registry.npmjs.org/leaflet-control-geocoder from cache
+24 verbose get saving leaflet-control-geocoder to C:\Users\Pepa\AppData\Roaming\npm-cache\registry.npmjs.org\leaflet-control-geocoder\.cache.json
+25 verbose correctMkdir C:\Users\Pepa\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule leaflet-control-geocoder@1.5.1 checking installable status
+39 silly cache add args [ 'leaflet-control-geocoder', null ]
+40 verbose cache add spec leaflet-control-geocoder
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'leaflet-control-geocoder',
+41 silly cache add   scope: null,
+41 silly cache add   name: 'leaflet-control-geocoder',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed leaflet-control-geocoder@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for leaflet-control-geocoder
+44 info addNameTag [ 'leaflet-control-geocoder', 'latest' ]
+45 silly mapToRegistry name leaflet-control-geocoder
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'leaflet-control-geocoder',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   name: 'leaflet-control-geocoder',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/leaflet-control-geocoder
+50 verbose addNameTag registry:https://registry.npmjs.org/leaflet-control-geocoder not in flight; fetching
+51 verbose get https://registry.npmjs.org/leaflet-control-geocoder not expired, no request
+52 silly addNameTag next cb for leaflet-control-geocoder with tag latest
+53 silly addNamed leaflet-control-geocoder@1.5.1
+54 verbose addNamed "1.5.1" is a plain semver version for leaflet-control-geocoder
+55 silly cache afterAdd leaflet-control-geocoder@1.5.1
+56 verbose afterAdd C:\Users\Pepa\AppData\Roaming\npm-cache\leaflet-control-geocoder\1.5.1\package\package.json not in flight; writing
+57 verbose correctMkdir C:\Users\Pepa\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+58 verbose afterAdd C:\Users\Pepa\AppData\Roaming\npm-cache\leaflet-control-geocoder\1.5.1\package\package.json written
+59 silly loadAllDepsIntoIdealTree Finishing
+60 silly idealTree:prePrune test@2.4.0
+60 silly idealTree:prePrune +-- abbrev@1.0.9
+60 silly idealTree:prePrune +-- align-text@0.1.4
+60 silly idealTree:prePrune +-- amdefine@1.0.0
+60 silly idealTree:prePrune +-- angular-leaflet-directive@0.10.0
+60 silly idealTree:prePrune +-- angular-simple-logger@0.1.7
+60 silly idealTree:prePrune +-- angular@1.5.7
+60 silly idealTree:prePrune +-- ansi-regex@2.0.0
+60 silly idealTree:prePrune +-- argparse@0.1.16
+60 silly idealTree:prePrune | `-- underscore.string@2.4.0
+60 silly idealTree:prePrune +-- array-find-index@1.0.1
+60 silly idealTree:prePrune +-- async@0.1.22
+60 silly idealTree:prePrune +-- balanced-match@0.4.1
+60 silly idealTree:prePrune +-- brace-expansion@1.1.5
+60 silly idealTree:prePrune +-- builtin-modules@1.1.1
+60 silly idealTree:prePrune +-- camelcase-keys@2.1.0
+60 silly idealTree:prePrune +-- camelcase@2.1.1
+60 silly idealTree:prePrune +-- center-align@0.1.3
+60 silly idealTree:prePrune +-- cliui@3.2.0
+60 silly idealTree:prePrune +-- code-point-at@1.0.0
+60 silly idealTree:prePrune +-- coffee-script@1.3.3
+60 silly idealTree:prePrune +-- colors@0.6.2
+60 silly idealTree:prePrune +-- concat-map@0.0.1
+60 silly idealTree:prePrune +-- corser@2.0.0
+60 silly idealTree:prePrune +-- corslite@0.0.6
+60 silly idealTree:prePrune +-- currently-unhandled@0.4.1
+60 silly idealTree:prePrune +-- dateformat@1.0.2-1.2.3
+60 silly idealTree:prePrune +-- debug@2.2.0
+60 silly idealTree:prePrune +-- decamelize@1.2.0
+60 silly idealTree:prePrune +-- deep-is@0.1.3
+60 silly idealTree:prePrune +-- divhide@2.0.1
+60 silly idealTree:prePrune | `-- lodash@3.9.3
+60 silly idealTree:prePrune +-- ecstatic@1.4.1
+60 silly idealTree:prePrune +-- error-ex@1.3.0
+60 silly idealTree:prePrune +-- escodegen@1.8.0
+60 silly idealTree:prePrune | +-- esprima@2.7.2
+60 silly idealTree:prePrune | `-- source-map@0.2.0
+60 silly idealTree:prePrune +-- esprima@1.0.4
+60 silly idealTree:prePrune +-- estraverse@1.9.3
+60 silly idealTree:prePrune +-- esutils@2.0.2
+60 silly idealTree:prePrune +-- eventemitter2@0.4.14
+60 silly idealTree:prePrune +-- eventemitter3@1.2.0
+60 silly idealTree:prePrune +-- exit@0.1.2
+60 silly idealTree:prePrune +-- fast-levenshtein@1.1.3
+60 silly idealTree:prePrune +-- fileset@0.2.1
+60 silly idealTree:prePrune | +-- glob@5.0.15
+60 silly idealTree:prePrune | `-- minimatch@2.0.10
+60 silly idealTree:prePrune +-- find-up@1.1.2
+60 silly idealTree:prePrune +-- findup-sync@0.1.3
+60 silly idealTree:prePrune | +-- glob@3.2.11
+60 silly idealTree:prePrune | +-- lodash@2.4.2
+60 silly idealTree:prePrune | `-- minimatch@0.3.0
+60 silly idealTree:prePrune +-- get-stdin@4.0.1
+60 silly idealTree:prePrune +-- getobject@0.1.0
+60 silly idealTree:prePrune +-- glob@3.1.21
+60 silly idealTree:prePrune | `-- inherits@1.0.2
+60 silly idealTree:prePrune +-- graceful-fs@1.2.3
+60 silly idealTree:prePrune +-- grunt-cli@1.2.0
+60 silly idealTree:prePrune | +-- findup-sync@0.3.0
+60 silly idealTree:prePrune | +-- glob@5.0.15
+60 silly idealTree:prePrune | +-- minimatch@3.0.0
+60 silly idealTree:prePrune | `-- nopt@3.0.6
+60 silly idealTree:prePrune +-- grunt-http-server@2.0.0
+60 silly idealTree:prePrune | `-- lodash@4.2.1
+60 silly idealTree:prePrune +-- grunt-known-options@1.1.0
+60 silly idealTree:prePrune +-- grunt-legacy-log-utils@0.1.1
+60 silly idealTree:prePrune | +-- lodash@2.4.2
+60 silly idealTree:prePrune | `-- underscore.string@2.3.3
+60 silly idealTree:prePrune +-- grunt-legacy-log@0.1.3
+60 silly idealTree:prePrune | +-- lodash@2.4.2
+60 silly idealTree:prePrune | `-- underscore.string@2.3.3
+60 silly idealTree:prePrune +-- grunt-legacy-util@0.2.0
+60 silly idealTree:prePrune +-- grunt@0.4.5
+60 silly idealTree:prePrune +-- handlebars@4.0.5
+60 silly idealTree:prePrune | +-- async@1.5.2
+60 silly idealTree:prePrune | `-- source-map@0.4.4
+60 silly idealTree:prePrune +-- has-flag@1.0.0
+60 silly idealTree:prePrune +-- he@0.5.0
+60 silly idealTree:prePrune +-- hooker@0.2.3
+60 silly idealTree:prePrune +-- hosted-git-info@2.1.5
+60 silly idealTree:prePrune +-- http-proxy@1.13.3
+60 silly idealTree:prePrune +-- http-server@0.9.0
+60 silly idealTree:prePrune | `-- colors@1.0.3
+60 silly idealTree:prePrune +-- iconv-lite@0.2.11
+60 silly idealTree:prePrune +-- indent-string@2.1.0
+60 silly idealTree:prePrune +-- inflight@1.0.5
+60 silly idealTree:prePrune +-- inherits@2.0.1
+60 silly idealTree:prePrune +-- invert-kv@1.0.0
+60 silly idealTree:prePrune +-- is-arrayish@0.2.1
+60 silly idealTree:prePrune +-- is-buffer@1.1.3
+60 silly idealTree:prePrune +-- is-builtin-module@1.0.0
+60 silly idealTree:prePrune +-- is-finite@1.0.1
+60 silly idealTree:prePrune +-- is-fullwidth-code-point@1.0.0
+60 silly idealTree:prePrune +-- is-utf8@0.2.1
+60 silly idealTree:prePrune +-- isexe@1.1.2
+60 silly idealTree:prePrune +-- istanbul@0.4.4
+60 silly idealTree:prePrune | +-- argparse@1.0.7
+60 silly idealTree:prePrune | +-- async@1.5.2
+60 silly idealTree:prePrune | +-- esprima@2.7.2
+60 silly idealTree:prePrune | +-- js-yaml@3.6.1
+60 silly idealTree:prePrune | +-- nopt@3.0.6
+60 silly idealTree:prePrune | +-- which@1.2.10
+60 silly idealTree:prePrune | `-- wordwrap@1.0.0
+60 silly idealTree:prePrune +-- js-yaml@2.0.5
+60 silly idealTree:prePrune +-- karma-coverage@0.5.5
+60 silly idealTree:prePrune | +-- dateformat@1.0.12
+60 silly idealTree:prePrune | `-- minimatch@3.0.2
+60 silly idealTree:prePrune +-- kind-of@3.0.3
+60 silly idealTree:prePrune +-- lazy-cache@1.0.4
+60 silly idealTree:prePrune +-- lcid@1.0.0
+60 silly idealTree:prePrune +-- leaflet-control-geocoder@1.5.1
+60 silly idealTree:prePrune +-- leaflet-routing-machine@3.0.3
+60 silly idealTree:prePrune +-- leaflet@0.7.7
+60 silly idealTree:prePrune +-- levn@0.3.0
+60 silly idealTree:prePrune +-- load-json-file@1.1.0
+60 silly idealTree:prePrune | `-- graceful-fs@4.1.4
+60 silly idealTree:prePrune +-- lodash@0.9.2
+60 silly idealTree:prePrune +-- longest@1.0.1
+60 silly idealTree:prePrune +-- loud-rejection@1.5.0
+60 silly idealTree:prePrune +-- lru-cache@2.7.3
+60 silly idealTree:prePrune +-- map-obj@1.0.1
+60 silly idealTree:prePrune +-- meow@3.7.0
+60 silly idealTree:prePrune +-- mime@1.3.4
+60 silly idealTree:prePrune +-- minimatch@0.2.14
+60 silly idealTree:prePrune +-- minimist@1.2.0
+60 silly idealTree:prePrune +-- mkdirp@0.5.1
+60 silly idealTree:prePrune | `-- minimist@0.0.8
+60 silly idealTree:prePrune +-- ms@0.7.1
+60 silly idealTree:prePrune +-- nopt@1.0.10
+60 silly idealTree:prePrune +-- normalize-package-data@2.3.5
+60 silly idealTree:prePrune +-- number-is-nan@1.0.0
+60 silly idealTree:prePrune +-- object-assign@4.1.0
+60 silly idealTree:prePrune +-- once@1.3.3
+60 silly idealTree:prePrune +-- opener@1.4.1
+60 silly idealTree:prePrune +-- optimist@0.6.1
+60 silly idealTree:prePrune | `-- minimist@0.0.10
+60 silly idealTree:prePrune +-- optionator@0.8.1
+60 silly idealTree:prePrune | `-- wordwrap@1.0.0
+60 silly idealTree:prePrune +-- os-locale@1.4.0
+60 silly idealTree:prePrune +-- parse-json@2.2.0
+60 silly idealTree:prePrune +-- path-exists@2.1.0
+60 silly idealTree:prePrune +-- path-is-absolute@1.0.0
+60 silly idealTree:prePrune +-- path-type@1.1.0
+60 silly idealTree:prePrune | `-- graceful-fs@4.1.4
+60 silly idealTree:prePrune +-- pify@2.3.0
+60 silly idealTree:prePrune +-- pinkie-promise@2.0.1
+60 silly idealTree:prePrune +-- pinkie@2.0.4
+60 silly idealTree:prePrune +-- polyline@0.0.3
+60 silly idealTree:prePrune +-- portfinder@0.4.0
+60 silly idealTree:prePrune | `-- async@0.9.0
+60 silly idealTree:prePrune +-- prelude-ls@1.1.2
+60 silly idealTree:prePrune +-- qs@2.3.3
+60 silly idealTree:prePrune +-- read-pkg-up@1.0.1
+60 silly idealTree:prePrune +-- read-pkg@1.1.0
+60 silly idealTree:prePrune +-- redent@1.0.0
+60 silly idealTree:prePrune +-- repeat-string@1.5.4
+60 silly idealTree:prePrune +-- repeating@2.0.1
+60 silly idealTree:prePrune +-- requires-port@1.0.0
+60 silly idealTree:prePrune +-- resolve@1.1.7
+60 silly idealTree:prePrune +-- right-align@0.1.3
+60 silly idealTree:prePrune +-- rimraf@2.2.8
+60 silly idealTree:prePrune +-- semver@5.1.1
+60 silly idealTree:prePrune +-- showdown@1.4.1
+60 silly idealTree:prePrune +-- sigmund@1.0.1
+60 silly idealTree:prePrune +-- signal-exit@3.0.0
+60 silly idealTree:prePrune +-- source-map@0.5.6
+60 silly idealTree:prePrune +-- spdx-correct@1.0.2
+60 silly idealTree:prePrune +-- spdx-exceptions@1.0.4
+60 silly idealTree:prePrune +-- spdx-expression-parse@1.0.2
+60 silly idealTree:prePrune +-- spdx-license-ids@1.2.1
+60 silly idealTree:prePrune +-- sprintf-js@1.0.3
+60 silly idealTree:prePrune +-- string-width@1.0.1
+60 silly idealTree:prePrune +-- strip-ansi@3.0.1
+60 silly idealTree:prePrune +-- strip-bom@2.0.0
+60 silly idealTree:prePrune +-- strip-indent@1.0.1
+60 silly idealTree:prePrune +-- supports-color@3.1.2
+60 silly idealTree:prePrune +-- trim-newlines@1.0.0
+60 silly idealTree:prePrune +-- type-check@0.3.2
+60 silly idealTree:prePrune +-- uglify-js@2.6.4
+60 silly idealTree:prePrune | +-- async@0.2.10
+60 silly idealTree:prePrune | +-- camelcase@1.2.1
+60 silly idealTree:prePrune | +-- cliui@2.1.0
+60 silly idealTree:prePrune | +-- window-size@0.1.0
+60 silly idealTree:prePrune | +-- wordwrap@0.0.2
+60 silly idealTree:prePrune | `-- yargs@3.10.0
+60 silly idealTree:prePrune +-- uglify-to-browserify@1.0.2
+60 silly idealTree:prePrune +-- ui-leaflet@1.0.1
+60 silly idealTree:prePrune +-- underscore.string@2.2.1
+60 silly idealTree:prePrune +-- underscore@1.7.0
+60 silly idealTree:prePrune +-- union@0.4.4
+60 silly idealTree:prePrune +-- url-join@1.1.0
+60 silly idealTree:prePrune +-- validate-npm-package-license@3.0.1
+60 silly idealTree:prePrune +-- which@1.0.9
+60 silly idealTree:prePrune +-- window-size@0.1.4
+60 silly idealTree:prePrune +-- wordwrap@0.0.3
+60 silly idealTree:prePrune +-- wrap-ansi@2.0.0
+60 silly idealTree:prePrune +-- wrappy@1.0.2
+60 silly idealTree:prePrune +-- y18n@3.2.1
+60 silly idealTree:prePrune `-- yargs@3.32.0
+61 silly loadIdealTree Finishing
+62 silly currentTree test@2.4.0
+62 silly currentTree +-- abbrev@1.0.9
+62 silly currentTree +-- align-text@0.1.4
+62 silly currentTree +-- amdefine@1.0.0
+62 silly currentTree +-- angular-leaflet-directive@0.10.0
+62 silly currentTree +-- angular-simple-logger@0.1.7
+62 silly currentTree +-- angular@1.5.7
+62 silly currentTree +-- ansi-regex@2.0.0
+62 silly currentTree +-- argparse@0.1.16
+62 silly currentTree | `-- underscore.string@2.4.0
+62 silly currentTree +-- array-find-index@1.0.1
+62 silly currentTree +-- async@0.1.22
+62 silly currentTree +-- balanced-match@0.4.1
+62 silly currentTree +-- brace-expansion@1.1.5
+62 silly currentTree +-- builtin-modules@1.1.1
+62 silly currentTree +-- camelcase-keys@2.1.0
+62 silly currentTree +-- camelcase@2.1.1
+62 silly currentTree +-- center-align@0.1.3
+62 silly currentTree +-- cliui@3.2.0
+62 silly currentTree +-- code-point-at@1.0.0
+62 silly currentTree +-- coffee-script@1.3.3
+62 silly currentTree +-- colors@0.6.2
+62 silly currentTree +-- concat-map@0.0.1
+62 silly currentTree +-- corser@2.0.0
+62 silly currentTree +-- corslite@0.0.6
+62 silly currentTree +-- currently-unhandled@0.4.1
+62 silly currentTree +-- dateformat@1.0.2-1.2.3
+62 silly currentTree +-- debug@2.2.0
+62 silly currentTree +-- decamelize@1.2.0
+62 silly currentTree +-- deep-is@0.1.3
+62 silly currentTree +-- divhide@2.0.1
+62 silly currentTree | `-- lodash@3.9.3
+62 silly currentTree +-- ecstatic@1.4.1
+62 silly currentTree +-- error-ex@1.3.0
+62 silly currentTree +-- escodegen@1.8.0
+62 silly currentTree | +-- esprima@2.7.2
+62 silly currentTree | `-- source-map@0.2.0
+62 silly currentTree +-- esprima@1.0.4
+62 silly currentTree +-- estraverse@1.9.3
+62 silly currentTree +-- esutils@2.0.2
+62 silly currentTree +-- eventemitter2@0.4.14
+62 silly currentTree +-- eventemitter3@1.2.0
+62 silly currentTree +-- exit@0.1.2
+62 silly currentTree +-- fast-levenshtein@1.1.3
+62 silly currentTree +-- fileset@0.2.1
+62 silly currentTree | +-- glob@5.0.15
+62 silly currentTree | `-- minimatch@2.0.10
+62 silly currentTree +-- find-up@1.1.2
+62 silly currentTree +-- findup-sync@0.1.3
+62 silly currentTree | +-- glob@3.2.11
+62 silly currentTree | +-- lodash@2.4.2
+62 silly currentTree | `-- minimatch@0.3.0
+62 silly currentTree +-- get-stdin@4.0.1
+62 silly currentTree +-- getobject@0.1.0
+62 silly currentTree +-- glob@3.1.21
+62 silly currentTree | `-- inherits@1.0.2
+62 silly currentTree +-- graceful-fs@1.2.3
+62 silly currentTree +-- grunt-cli@1.2.0
+62 silly currentTree | +-- findup-sync@0.3.0
+62 silly currentTree | +-- glob@5.0.15
+62 silly currentTree | +-- minimatch@3.0.0
+62 silly currentTree | `-- nopt@3.0.6
+62 silly currentTree +-- grunt-http-server@2.0.0
+62 silly currentTree | `-- lodash@4.2.1
+62 silly currentTree +-- grunt-known-options@1.1.0
+62 silly currentTree +-- grunt-legacy-log-utils@0.1.1
+62 silly currentTree | +-- lodash@2.4.2
+62 silly currentTree | `-- underscore.string@2.3.3
+62 silly currentTree +-- grunt-legacy-log@0.1.3
+62 silly currentTree | +-- lodash@2.4.2
+62 silly currentTree | `-- underscore.string@2.3.3
+62 silly currentTree +-- grunt-legacy-util@0.2.0
+62 silly currentTree +-- grunt@0.4.5
+62 silly currentTree +-- handlebars@4.0.5
+62 silly currentTree | +-- async@1.5.2
+62 silly currentTree | `-- source-map@0.4.4
+62 silly currentTree +-- has-flag@1.0.0
+62 silly currentTree +-- he@0.5.0
+62 silly currentTree +-- hooker@0.2.3
+62 silly currentTree +-- hosted-git-info@2.1.5
+62 silly currentTree +-- http-proxy@1.13.3
+62 silly currentTree +-- http-server@0.9.0
+62 silly currentTree | `-- colors@1.0.3
+62 silly currentTree +-- iconv-lite@0.2.11
+62 silly currentTree +-- indent-string@2.1.0
+62 silly currentTree +-- inflight@1.0.5
+62 silly currentTree +-- inherits@2.0.1
+62 silly currentTree +-- invert-kv@1.0.0
+62 silly currentTree +-- is-arrayish@0.2.1
+62 silly currentTree +-- is-buffer@1.1.3
+62 silly currentTree +-- is-builtin-module@1.0.0
+62 silly currentTree +-- is-finite@1.0.1
+62 silly currentTree +-- is-fullwidth-code-point@1.0.0
+62 silly currentTree +-- is-utf8@0.2.1
+62 silly currentTree +-- isexe@1.1.2
+62 silly currentTree +-- istanbul@0.4.4
+62 silly currentTree | +-- argparse@1.0.7
+62 silly currentTree | +-- async@1.5.2
+62 silly currentTree | +-- esprima@2.7.2
+62 silly currentTree | +-- js-yaml@3.6.1
+62 silly currentTree | +-- nopt@3.0.6
+62 silly currentTree | +-- which@1.2.10
+62 silly currentTree | `-- wordwrap@1.0.0
+62 silly currentTree +-- js-yaml@2.0.5
+62 silly currentTree +-- karma-coverage@0.5.5
+62 silly currentTree | +-- dateformat@1.0.12
+62 silly currentTree | `-- minimatch@3.0.2
+62 silly currentTree +-- kind-of@3.0.3
+62 silly currentTree +-- lazy-cache@1.0.4
+62 silly currentTree +-- lcid@1.0.0
+62 silly currentTree +-- leaflet-routing-machine@3.0.3
+62 silly currentTree +-- leaflet@0.7.7
+62 silly currentTree +-- levn@0.3.0
+62 silly currentTree +-- load-json-file@1.1.0
+62 silly currentTree | `-- graceful-fs@4.1.4
+62 silly currentTree +-- lodash@0.9.2
+62 silly currentTree +-- longest@1.0.1
+62 silly currentTree +-- loud-rejection@1.5.0
+62 silly currentTree +-- lru-cache@2.7.3
+62 silly currentTree +-- map-obj@1.0.1
+62 silly currentTree +-- meow@3.7.0
+62 silly currentTree +-- mime@1.3.4
+62 silly currentTree +-- minimatch@0.2.14
+62 silly currentTree +-- minimist@1.2.0
+62 silly currentTree +-- mkdirp@0.5.1
+62 silly currentTree | `-- minimist@0.0.8
+62 silly currentTree +-- ms@0.7.1
+62 silly currentTree +-- nopt@1.0.10
+62 silly currentTree +-- normalize-package-data@2.3.5
+62 silly currentTree +-- number-is-nan@1.0.0
+62 silly currentTree +-- object-assign@4.1.0
+62 silly currentTree +-- once@1.3.3
+62 silly currentTree +-- opener@1.4.1
+62 silly currentTree +-- optimist@0.6.1
+62 silly currentTree | `-- minimist@0.0.10
+62 silly currentTree +-- optionator@0.8.1
+62 silly currentTree | `-- wordwrap@1.0.0
+62 silly currentTree +-- os-locale@1.4.0
+62 silly currentTree +-- parse-json@2.2.0
+62 silly currentTree +-- path-exists@2.1.0
+62 silly currentTree +-- path-is-absolute@1.0.0
+62 silly currentTree +-- path-type@1.1.0
+62 silly currentTree | `-- graceful-fs@4.1.4
+62 silly currentTree +-- pify@2.3.0
+62 silly currentTree +-- pinkie-promise@2.0.1
+62 silly currentTree +-- pinkie@2.0.4
+62 silly currentTree +-- polyline@0.0.3
+62 silly currentTree +-- portfinder@0.4.0
+62 silly currentTree | `-- async@0.9.0
+62 silly currentTree +-- prelude-ls@1.1.2
+62 silly currentTree +-- qs@2.3.3
+62 silly currentTree +-- read-pkg-up@1.0.1
+62 silly currentTree +-- read-pkg@1.1.0
+62 silly currentTree +-- redent@1.0.0
+62 silly currentTree +-- repeat-string@1.5.4
+62 silly currentTree +-- repeating@2.0.1
+62 silly currentTree +-- requires-port@1.0.0
+62 silly currentTree +-- resolve@1.1.7
+62 silly currentTree +-- right-align@0.1.3
+62 silly currentTree +-- rimraf@2.2.8
+62 silly currentTree +-- semver@5.1.1
+62 silly currentTree +-- showdown@1.4.1
+62 silly currentTree +-- sigmund@1.0.1
+62 silly currentTree +-- signal-exit@3.0.0
+62 silly currentTree +-- source-map@0.5.6
+62 silly currentTree +-- spdx-correct@1.0.2
+62 silly currentTree +-- spdx-exceptions@1.0.4
+62 silly currentTree +-- spdx-expression-parse@1.0.2
+62 silly currentTree +-- spdx-license-ids@1.2.1
+62 silly currentTree +-- sprintf-js@1.0.3
+62 silly currentTree +-- string-width@1.0.1
+62 silly currentTree +-- strip-ansi@3.0.1
+62 silly currentTree +-- strip-bom@2.0.0
+62 silly currentTree +-- strip-indent@1.0.1
+62 silly currentTree +-- supports-color@3.1.2
+62 silly currentTree +-- trim-newlines@1.0.0
+62 silly currentTree +-- type-check@0.3.2
+62 silly currentTree +-- uglify-js@2.6.4
+62 silly currentTree | +-- async@0.2.10
+62 silly currentTree | +-- camelcase@1.2.1
+62 silly currentTree | +-- cliui@2.1.0
+62 silly currentTree | +-- window-size@0.1.0
+62 silly currentTree | +-- wordwrap@0.0.2
+62 silly currentTree | `-- yargs@3.10.0
+62 silly currentTree +-- uglify-to-browserify@1.0.2
+62 silly currentTree +-- ui-leaflet@1.0.1
+62 silly currentTree +-- underscore.string@2.2.1
+62 silly currentTree +-- underscore@1.7.0
+62 silly currentTree +-- union@0.4.4
+62 silly currentTree +-- url-join@1.1.0
+62 silly currentTree +-- validate-npm-package-license@3.0.1
+62 silly currentTree +-- which@1.0.9
+62 silly currentTree +-- window-size@0.1.4
+62 silly currentTree +-- wordwrap@0.0.3
+62 silly currentTree +-- wrap-ansi@2.0.0
+62 silly currentTree +-- wrappy@1.0.2
+62 silly currentTree +-- y18n@3.2.1
+62 silly currentTree `-- yargs@3.32.0
+63 silly idealTree test@2.4.0
+63 silly idealTree +-- abbrev@1.0.9
+63 silly idealTree +-- align-text@0.1.4
+63 silly idealTree +-- amdefine@1.0.0
+63 silly idealTree +-- angular-leaflet-directive@0.10.0
+63 silly idealTree +-- angular-simple-logger@0.1.7
+63 silly idealTree +-- angular@1.5.7
+63 silly idealTree +-- ansi-regex@2.0.0
+63 silly idealTree +-- argparse@0.1.16
+63 silly idealTree | `-- underscore.string@2.4.0
+63 silly idealTree +-- array-find-index@1.0.1
+63 silly idealTree +-- async@0.1.22
+63 silly idealTree +-- balanced-match@0.4.1
+63 silly idealTree +-- brace-expansion@1.1.5
+63 silly idealTree +-- builtin-modules@1.1.1
+63 silly idealTree +-- camelcase-keys@2.1.0
+63 silly idealTree +-- camelcase@2.1.1
+63 silly idealTree +-- center-align@0.1.3
+63 silly idealTree +-- cliui@3.2.0
+63 silly idealTree +-- code-point-at@1.0.0
+63 silly idealTree +-- coffee-script@1.3.3
+63 silly idealTree +-- colors@0.6.2
+63 silly idealTree +-- concat-map@0.0.1
+63 silly idealTree +-- corser@2.0.0
+63 silly idealTree +-- corslite@0.0.6
+63 silly idealTree +-- currently-unhandled@0.4.1
+63 silly idealTree +-- dateformat@1.0.2-1.2.3
+63 silly idealTree +-- debug@2.2.0
+63 silly idealTree +-- decamelize@1.2.0
+63 silly idealTree +-- deep-is@0.1.3
+63 silly idealTree +-- divhide@2.0.1
+63 silly idealTree | `-- lodash@3.9.3
+63 silly idealTree +-- ecstatic@1.4.1
+63 silly idealTree +-- error-ex@1.3.0
+63 silly idealTree +-- escodegen@1.8.0
+63 silly idealTree | +-- esprima@2.7.2
+63 silly idealTree | `-- source-map@0.2.0
+63 silly idealTree +-- esprima@1.0.4
+63 silly idealTree +-- estraverse@1.9.3
+63 silly idealTree +-- esutils@2.0.2
+63 silly idealTree +-- eventemitter2@0.4.14
+63 silly idealTree +-- eventemitter3@1.2.0
+63 silly idealTree +-- exit@0.1.2
+63 silly idealTree +-- fast-levenshtein@1.1.3
+63 silly idealTree +-- fileset@0.2.1
+63 silly idealTree | +-- glob@5.0.15
+63 silly idealTree | `-- minimatch@2.0.10
+63 silly idealTree +-- find-up@1.1.2
+63 silly idealTree +-- findup-sync@0.1.3
+63 silly idealTree | +-- glob@3.2.11
+63 silly idealTree | +-- lodash@2.4.2
+63 silly idealTree | `-- minimatch@0.3.0
+63 silly idealTree +-- get-stdin@4.0.1
+63 silly idealTree +-- getobject@0.1.0
+63 silly idealTree +-- glob@3.1.21
+63 silly idealTree | `-- inherits@1.0.2
+63 silly idealTree +-- graceful-fs@1.2.3
+63 silly idealTree +-- grunt-cli@1.2.0
+63 silly idealTree | +-- findup-sync@0.3.0
+63 silly idealTree | +-- glob@5.0.15
+63 silly idealTree | +-- minimatch@3.0.0
+63 silly idealTree | `-- nopt@3.0.6
+63 silly idealTree +-- grunt-http-server@2.0.0
+63 silly idealTree | `-- lodash@4.2.1
+63 silly idealTree +-- grunt-known-options@1.1.0
+63 silly idealTree +-- grunt-legacy-log-utils@0.1.1
+63 silly idealTree | +-- lodash@2.4.2
+63 silly idealTree | `-- underscore.string@2.3.3
+63 silly idealTree +-- grunt-legacy-log@0.1.3
+63 silly idealTree | +-- lodash@2.4.2
+63 silly idealTree | `-- underscore.string@2.3.3
+63 silly idealTree +-- grunt-legacy-util@0.2.0
+63 silly idealTree +-- grunt@0.4.5
+63 silly idealTree +-- handlebars@4.0.5
+63 silly idealTree | +-- async@1.5.2
+63 silly idealTree | `-- source-map@0.4.4
+63 silly idealTree +-- has-flag@1.0.0
+63 silly idealTree +-- he@0.5.0
+63 silly idealTree +-- hooker@0.2.3
+63 silly idealTree +-- hosted-git-info@2.1.5
+63 silly idealTree +-- http-proxy@1.13.3
+63 silly idealTree +-- http-server@0.9.0
+63 silly idealTree | `-- colors@1.0.3
+63 silly idealTree +-- iconv-lite@0.2.11
+63 silly idealTree +-- indent-string@2.1.0
+63 silly idealTree +-- inflight@1.0.5
+63 silly idealTree +-- inherits@2.0.1
+63 silly idealTree +-- invert-kv@1.0.0
+63 silly idealTree +-- is-arrayish@0.2.1
+63 silly idealTree +-- is-buffer@1.1.3
+63 silly idealTree +-- is-builtin-module@1.0.0
+63 silly idealTree +-- is-finite@1.0.1
+63 silly idealTree +-- is-fullwidth-code-point@1.0.0
+63 silly idealTree +-- is-utf8@0.2.1
+63 silly idealTree +-- isexe@1.1.2
+63 silly idealTree +-- istanbul@0.4.4
+63 silly idealTree | +-- argparse@1.0.7
+63 silly idealTree | +-- async@1.5.2
+63 silly idealTree | +-- esprima@2.7.2
+63 silly idealTree | +-- js-yaml@3.6.1
+63 silly idealTree | +-- nopt@3.0.6
+63 silly idealTree | +-- which@1.2.10
+63 silly idealTree | `-- wordwrap@1.0.0
+63 silly idealTree +-- js-yaml@2.0.5
+63 silly idealTree +-- karma-coverage@0.5.5
+63 silly idealTree | +-- dateformat@1.0.12
+63 silly idealTree | `-- minimatch@3.0.2
+63 silly idealTree +-- kind-of@3.0.3
+63 silly idealTree +-- lazy-cache@1.0.4
+63 silly idealTree +-- lcid@1.0.0
+63 silly idealTree +-- leaflet-control-geocoder@1.5.1
+63 silly idealTree +-- leaflet-routing-machine@3.0.3
+63 silly idealTree +-- leaflet@0.7.7
+63 silly idealTree +-- levn@0.3.0
+63 silly idealTree +-- load-json-file@1.1.0
+63 silly idealTree | `-- graceful-fs@4.1.4
+63 silly idealTree +-- lodash@0.9.2
+63 silly idealTree +-- longest@1.0.1
+63 silly idealTree +-- loud-rejection@1.5.0
+63 silly idealTree +-- lru-cache@2.7.3
+63 silly idealTree +-- map-obj@1.0.1
+63 silly idealTree +-- meow@3.7.0
+63 silly idealTree +-- mime@1.3.4
+63 silly idealTree +-- minimatch@0.2.14
+63 silly idealTree +-- minimist@1.2.0
+63 silly idealTree +-- mkdirp@0.5.1
+63 silly idealTree | `-- minimist@0.0.8
+63 silly idealTree +-- ms@0.7.1
+63 silly idealTree +-- nopt@1.0.10
+63 silly idealTree +-- normalize-package-data@2.3.5
+63 silly idealTree +-- number-is-nan@1.0.0
+63 silly idealTree +-- object-assign@4.1.0
+63 silly idealTree +-- once@1.3.3
+63 silly idealTree +-- opener@1.4.1
+63 silly idealTree +-- optimist@0.6.1
+63 silly idealTree | `-- minimist@0.0.10
+63 silly idealTree +-- optionator@0.8.1
+63 silly idealTree | `-- wordwrap@1.0.0
+63 silly idealTree +-- os-locale@1.4.0
+63 silly idealTree +-- parse-json@2.2.0
+63 silly idealTree +-- path-exists@2.1.0
+63 silly idealTree +-- path-is-absolute@1.0.0
+63 silly idealTree +-- path-type@1.1.0
+63 silly idealTree | `-- graceful-fs@4.1.4
+63 silly idealTree +-- pify@2.3.0
+63 silly idealTree +-- pinkie-promise@2.0.1
+63 silly idealTree +-- pinkie@2.0.4
+63 silly idealTree +-- polyline@0.0.3
+63 silly idealTree +-- portfinder@0.4.0
+63 silly idealTree | `-- async@0.9.0
+63 silly idealTree +-- prelude-ls@1.1.2
+63 silly idealTree +-- qs@2.3.3
+63 silly idealTree +-- read-pkg-up@1.0.1
+63 silly idealTree +-- read-pkg@1.1.0
+63 silly idealTree +-- redent@1.0.0
+63 silly idealTree +-- repeat-string@1.5.4
+63 silly idealTree +-- repeating@2.0.1
+63 silly idealTree +-- requires-port@1.0.0
+63 silly idealTree +-- resolve@1.1.7
+63 silly idealTree +-- right-align@0.1.3
+63 silly idealTree +-- rimraf@2.2.8
+63 silly idealTree +-- semver@5.1.1
+63 silly idealTree +-- showdown@1.4.1
+63 silly idealTree +-- sigmund@1.0.1
+63 silly idealTree +-- signal-exit@3.0.0
+63 silly idealTree +-- source-map@0.5.6
+63 silly idealTree +-- spdx-correct@1.0.2
+63 silly idealTree +-- spdx-exceptions@1.0.4
+63 silly idealTree +-- spdx-expression-parse@1.0.2
+63 silly idealTree +-- spdx-license-ids@1.2.1
+63 silly idealTree +-- sprintf-js@1.0.3
+63 silly idealTree +-- string-width@1.0.1
+63 silly idealTree +-- strip-ansi@3.0.1
+63 silly idealTree +-- strip-bom@2.0.0
+63 silly idealTree +-- strip-indent@1.0.1
+63 silly idealTree +-- supports-color@3.1.2
+63 silly idealTree +-- trim-newlines@1.0.0
+63 silly idealTree +-- type-check@0.3.2
+63 silly idealTree +-- uglify-js@2.6.4
+63 silly idealTree | +-- async@0.2.10
+63 silly idealTree | +-- camelcase@1.2.1
+63 silly idealTree | +-- cliui@2.1.0
+63 silly idealTree | +-- window-size@0.1.0
+63 silly idealTree | +-- wordwrap@0.0.2
+63 silly idealTree | `-- yargs@3.10.0
+63 silly idealTree +-- uglify-to-browserify@1.0.2
+63 silly idealTree +-- ui-leaflet@1.0.1
+63 silly idealTree +-- underscore.string@2.2.1
+63 silly idealTree +-- underscore@1.7.0
+63 silly idealTree +-- union@0.4.4
+63 silly idealTree +-- url-join@1.1.0
+63 silly idealTree +-- validate-npm-package-license@3.0.1
+63 silly idealTree +-- which@1.0.9
+63 silly idealTree +-- window-size@0.1.4
+63 silly idealTree +-- wordwrap@0.0.3
+63 silly idealTree +-- wrap-ansi@2.0.0
+63 silly idealTree +-- wrappy@1.0.2
+63 silly idealTree +-- y18n@3.2.1
+63 silly idealTree `-- yargs@3.32.0
+64 silly generateActionsToTake Starting
+65 silly install generateActionsToTake
+66 silly generateActionsToTake Finishing
+67 silly diffTrees action count 2
+68 silly diffTrees update angular-leaflet-directive@0.10.0
+69 silly diffTrees add leaflet-control-geocoder@1.5.1
+70 silly decomposeActions action count 16
+71 silly decomposeActions fetch angular-leaflet-directive@0.10.0
+72 silly decomposeActions extract angular-leaflet-directive@0.10.0
+73 silly decomposeActions test angular-leaflet-directive@0.10.0
+74 silly decomposeActions preinstall angular-leaflet-directive@0.10.0
+75 silly decomposeActions build angular-leaflet-directive@0.10.0
+76 silly decomposeActions install angular-leaflet-directive@0.10.0
+77 silly decomposeActions postinstall angular-leaflet-directive@0.10.0
+78 silly decomposeActions finalize angular-leaflet-directive@0.10.0
+79 silly decomposeActions fetch leaflet-control-geocoder@1.5.1
+80 silly decomposeActions extract leaflet-control-geocoder@1.5.1
+81 silly decomposeActions test leaflet-control-geocoder@1.5.1
+82 silly decomposeActions preinstall leaflet-control-geocoder@1.5.1
+83 silly decomposeActions build leaflet-control-geocoder@1.5.1
+84 silly decomposeActions install leaflet-control-geocoder@1.5.1
+85 silly decomposeActions postinstall leaflet-control-geocoder@1.5.1
+86 silly decomposeActions finalize leaflet-control-geocoder@1.5.1
+87 silly executeActions Starting
+88 silly install executeActions
+89 silly doSerial global-install 0
+90 silly doParallel fetch 2
+91 verbose correctMkdir C:\Users\Pepa\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+92 verbose lock using C:\Users\Pepa\AppData\Roaming\npm-cache\_locks\staging-8b3df61adb3791bd.lock for C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging
+93 silly doParallel extract 2
+94 silly extract angular-leaflet-directive@0.10.0
+95 silly extract leaflet-control-geocoder@1.5.1
+96 verbose unbuild node_modules\.staging\leaflet-control-geocoder-b9fec534
+97 verbose unbuild node_modules\.staging\angular-leaflet-directive-678f85a0
+98 silly gentlyRm C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\leaflet-control-geocoder-b9fec534 is being purged from base C:\Users\Pepa\Documents\GitProjects\MapEvaluation
+99 verbose gentlyRm don't care about contents; nuking C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\leaflet-control-geocoder-b9fec534
+100 silly gentlyRm C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\angular-leaflet-directive-678f85a0 is being purged from base C:\Users\Pepa\Documents\GitProjects\MapEvaluation
+101 verbose gentlyRm don't care about contents; nuking C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\angular-leaflet-directive-678f85a0
+102 verbose tar unpack C:\Users\Pepa\AppData\Roaming\npm-cache\leaflet-control-geocoder\1.5.1\package.tgz
+103 verbose tar unpacking to C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\leaflet-control-geocoder-b9fec534
+104 silly gentlyRm C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\leaflet-control-geocoder-b9fec534 is being purged
+105 verbose gentlyRm don't care about contents; nuking C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\leaflet-control-geocoder-b9fec534
+106 verbose tar unpack C:\Users\Pepa\AppData\Roaming\npm-cache\angular-leaflet-directive\0.10.0\package.tgz
+107 verbose tar unpacking to C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\angular-leaflet-directive-678f85a0
+108 silly gentlyRm C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\angular-leaflet-directive-678f85a0 is being purged
+109 verbose gentlyRm don't care about contents; nuking C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\angular-leaflet-directive-678f85a0
+110 silly gunzTarPerm modes [ '777', '666' ]
+111 silly gunzTarPerm modes [ '777', '666' ]
+112 silly gunzTarPerm extractEntry package.json
+113 silly gunzTarPerm modified mode [ 'package.json', 509, 511 ]
+114 silly gunzTarPerm extractEntry package.json
+115 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+116 silly gunzTarPerm extractEntry .npmignore
+117 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+118 silly gunzTarPerm extractEntry README.md
+119 silly gunzTarPerm modified mode [ 'README.md', 509, 511 ]
+120 silly gunzTarPerm extractEntry .npmignore
+121 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+122 silly gunzTarPerm extractEntry README.md
+123 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+124 silly gunzTarPerm extractEntry LICENSE
+125 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+126 silly gunzTarPerm extractEntry Gruntfile.js
+127 silly gunzTarPerm modified mode [ 'Gruntfile.js', 436, 438 ]
+128 silly gunzTarPerm extractEntry LICENSE
+129 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+130 silly gunzTarPerm extractEntry demo/index.html
+131 silly gunzTarPerm modified mode [ 'demo/index.html', 436, 438 ]
+132 silly gunzTarPerm extractEntry generate-examples.js
+133 silly gunzTarPerm modified mode [ 'generate-examples.js', 436, 438 ]
+134 silly gunzTarPerm extractEntry Control.Geocoder.css
+135 silly gunzTarPerm modified mode [ 'Control.Geocoder.css', 436, 438 ]
+136 silly gunzTarPerm extractEntry bower.json
+137 silly gunzTarPerm modified mode [ 'bower.json', 436, 438 ]
+138 silly gunzTarPerm extractEntry CHANGELOG.md
+139 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+140 silly gunzTarPerm extractEntry CONTRIBUTING.md
+141 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 436, 438 ]
+142 silly gunzTarPerm extractEntry bower.json
+143 silly gunzTarPerm modified mode [ 'bower.json', 509, 511 ]
+144 silly gunzTarPerm extractEntry .jshintrc
+145 silly gunzTarPerm modified mode [ '.jshintrc', 436, 438 ]
+146 silly gunzTarPerm extractEntry .editorconfig
+147 silly gunzTarPerm modified mode [ '.editorconfig', 436, 438 ]
+148 silly gunzTarPerm extractEntry .jscsrc
+149 silly gunzTarPerm modified mode [ '.jscsrc', 436, 438 ]
+150 silly gunzTarPerm extractEntry dist/Control.Geocoder.js
+151 silly gunzTarPerm modified mode [ 'dist/Control.Geocoder.js', 436, 438 ]
+152 silly gunzTarPerm extractEntry dist/Control.Geocoder.css
+153 silly gunzTarPerm modified mode [ 'dist/Control.Geocoder.css', 436, 438 ]
+154 silly gunzTarPerm extractEntry .jshintrc
+155 silly gunzTarPerm modified mode [ '.jshintrc', 436, 438 ]
+156 silly gunzTarPerm extractEntry coffeelint.json
+157 silly gunzTarPerm modified mode [ 'coffeelint.json', 436, 438 ]
+158 silly gunzTarPerm extractEntry dist/images/geocoder.png
+159 silly gunzTarPerm modified mode [ 'dist/images/geocoder.png', 436, 438 ]
+160 silly gunzTarPerm extractEntry dist/images/throbber.gif
+161 silly gunzTarPerm modified mode [ 'dist/images/throbber.gif', 420, 438 ]
+162 silly gunzTarPerm extractEntry dist/angular-leaflet-directive.js
+163 silly gunzTarPerm modified mode [ 'dist/angular-leaflet-directive.js', 436, 438 ]
+164 silly gunzTarPerm extractEntry dist/angular-leaflet-directive.min.js
+165 silly gunzTarPerm modified mode [ 'dist/angular-leaflet-directive.min.js', 436, 438 ]
+166 silly gunzTarPerm extractEntry images/geocoder.png
+167 silly gunzTarPerm modified mode [ 'images/geocoder.png', 436, 438 ]
+168 silly gunzTarPerm extractEntry images/throbber.gif
+169 silly gunzTarPerm modified mode [ 'images/throbber.gif', 420, 438 ]
+170 silly gunzTarPerm extractEntry dist/angular-leaflet-directive.no-header.js
+171 silly gunzTarPerm modified mode [ 'dist/angular-leaflet-directive.no-header.js', 436, 438 ]
+172 silly gunzTarPerm extractEntry doc/bounds-attribute.md
+173 silly gunzTarPerm modified mode [ 'doc/bounds-attribute.md', 436, 438 ]
+174 silly gunzTarPerm extractEntry doc/center-attribute.md
+175 silly gunzTarPerm modified mode [ 'doc/center-attribute.md', 436, 438 ]
+176 silly gunzTarPerm extractEntry src/control.js
+177 silly gunzTarPerm modified mode [ 'src/control.js', 436, 438 ]
+178 silly gunzTarPerm extractEntry src/index.js
+179 silly gunzTarPerm modified mode [ 'src/index.js', 509, 511 ]
+180 silly gunzTarPerm extractEntry doc/defaults-attribute.md
+181 silly gunzTarPerm modified mode [ 'doc/defaults-attribute.md', 436, 438 ]
+182 silly gunzTarPerm extractEntry doc/layers-attribute.md
+183 silly gunzTarPerm modified mode [ 'doc/layers-attribute.md', 436, 438 ]
+184 silly gunzTarPerm extractEntry src/util.js
+185 silly gunzTarPerm modified mode [ 'src/util.js', 436, 438 ]
+186 silly gunzTarPerm extractEntry src/geocoders/arcgis.js
+187 silly gunzTarPerm modified mode [ 'src/geocoders/arcgis.js', 436, 438 ]
+188 silly gunzTarPerm extractEntry src/geocoders/bing.js
+189 silly gunzTarPerm modified mode [ 'src/geocoders/bing.js', 436, 438 ]
+190 silly gunzTarPerm extractEntry src/geocoders/google.js
+191 silly gunzTarPerm modified mode [ 'src/geocoders/google.js', 436, 438 ]
+192 silly gunzTarPerm extractEntry src/geocoders/here.js
+193 silly gunzTarPerm modified mode [ 'src/geocoders/here.js', 509, 511 ]
+194 silly gunzTarPerm extractEntry doc/leaflet-directive.md
+195 silly gunzTarPerm modified mode [ 'doc/leaflet-directive.md', 436, 438 ]
+196 silly gunzTarPerm extractEntry doc/markers-attribute.md
+197 silly gunzTarPerm modified mode [ 'doc/markers-attribute.md', 436, 438 ]
+198 silly gunzTarPerm extractEntry doc/maxbounds-attribute.md
+199 silly gunzTarPerm modified mode [ 'doc/maxbounds-attribute.md', 436, 438 ]
+200 silly gunzTarPerm extractEntry doc/paths-attribute.md
+201 silly gunzTarPerm modified mode [ 'doc/paths-attribute.md', 436, 438 ]
+202 silly gunzTarPerm extractEntry src/geocoders/mapbox.js
+203 silly gunzTarPerm modified mode [ 'src/geocoders/mapbox.js', 436, 438 ]
+204 silly gunzTarPerm extractEntry src/geocoders/mapquest.js
+205 silly gunzTarPerm modified mode [ 'src/geocoders/mapquest.js', 436, 438 ]
+206 silly gunzTarPerm extractEntry doc/tiles-attribute.md
+207 silly gunzTarPerm modified mode [ 'doc/tiles-attribute.md', 436, 438 ]
+208 silly gunzTarPerm extractEntry examples/0228-layers-esri-clustered-layer-example.html
+209 silly gunzTarPerm modified mode [ 'examples/0228-layers-esri-clustered-layer-example.html',
+209 silly gunzTarPerm   436,
+209 silly gunzTarPerm   438 ]
+210 silly gunzTarPerm extractEntry src/geocoders/mapzen.js
+211 silly gunzTarPerm modified mode [ 'src/geocoders/mapzen.js', 436, 438 ]
+212 silly gunzTarPerm extractEntry src/geocoders/nominatim.js
+213 silly gunzTarPerm modified mode [ 'src/geocoders/nominatim.js', 436, 438 ]
+214 silly gunzTarPerm extractEntry examples/0000-viewer.html
+215 silly gunzTarPerm modified mode [ 'examples/0000-viewer.html', 436, 438 ]
+216 silly gunzTarPerm extractEntry examples/0101-basic-center-example.html
+217 silly gunzTarPerm modified mode [ 'examples/0101-basic-center-example.html', 436, 438 ]
+218 silly gunzTarPerm extractEntry src/geocoders/photon.js
+219 silly gunzTarPerm modified mode [ 'src/geocoders/photon.js', 436, 438 ]
+220 silly gunzTarPerm extractEntry src/geocoders/what3words.js
+221 silly gunzTarPerm modified mode [ 'src/geocoders/what3words.js', 436, 438 ]
+222 silly gunzTarPerm extractEntry examples/0101-basic-lf-center-example.html
+223 silly gunzTarPerm modified mode [ 'examples/0101-basic-lf-center-example.html', 436, 438 ]
+224 silly gunzTarPerm extractEntry examples/0102-basic-center-autodiscover-example.html
+225 silly gunzTarPerm modified mode [ 'examples/0102-basic-center-autodiscover-example.html',
+225 silly gunzTarPerm   436,
+225 silly gunzTarPerm   438 ]
+226 silly gunzTarPerm extractEntry examples/0103-basic-center-url-hash-example.html
+227 silly gunzTarPerm modified mode [ 'examples/0103-basic-center-url-hash-example.html', 436, 438 ]
+228 silly gunzTarPerm extractEntry examples/0104-basic-custom-parameters-example.html
+229 silly gunzTarPerm modified mode [ 'examples/0104-basic-custom-parameters-example.html',
+229 silly gunzTarPerm   436,
+229 silly gunzTarPerm   438 ]
+230 silly gunzTarPerm extractEntry scripts/build.sh
+231 silly gunzTarPerm modified mode [ 'scripts/build.sh', 436, 438 ]
+232 silly gunzTarPerm extractEntry scripts/postpublish.sh
+233 silly gunzTarPerm modified mode [ 'scripts/postpublish.sh', 436, 438 ]
+234 silly gunzTarPerm extractEntry examples/0105-basic-bounds-example.html
+235 silly gunzTarPerm modified mode [ 'examples/0105-basic-bounds-example.html', 436, 438 ]
+236 silly gunzTarPerm extractEntry examples/0106-basic-maxbounds-example.html
+237 silly gunzTarPerm modified mode [ 'examples/0106-basic-maxbounds-example.html', 436, 438 ]
+238 silly gunzTarPerm extractEntry examples/0107-basic-tiles-example.html
+239 silly gunzTarPerm modified mode [ 'examples/0107-basic-tiles-example.html', 436, 438 ]
+240 silly gunzTarPerm extractEntry examples/0108-basic-tiles-zoom-changer-example.html
+241 silly gunzTarPerm modified mode [ 'examples/0108-basic-tiles-zoom-changer-example.html',
+241 silly gunzTarPerm   436,
+241 silly gunzTarPerm   438 ]
+242 silly gunzTarPerm extractEntry examples/0109-basic-center-geoip-example.html
+243 silly gunzTarPerm modified mode [ 'examples/0109-basic-center-geoip-example.html', 436, 438 ]
+244 silly gunzTarPerm extractEntry scripts/publish.sh
+245 silly gunzTarPerm modified mode [ 'scripts/publish.sh', 436, 438 ]
+246 silly gunzTarPerm extractEntry test/position.html
+247 silly gunzTarPerm modified mode [ 'test/position.html', 436, 438 ]
+248 silly gunzTarPerm extractEntry examples/0110-basic-map-without-animations-example.html
+249 silly gunzTarPerm modified mode [ 'examples/0110-basic-map-without-animations-example.html',
+249 silly gunzTarPerm   436,
+249 silly gunzTarPerm   438 ]
+250 silly gunzTarPerm extractEntry examples/0111-basic-legend-example.html
+251 silly gunzTarPerm modified mode [ 'examples/0111-basic-legend-example.html', 436, 438 ]
+252 silly gunzTarPerm extractEntry examples/0112-basic-maxbounds-pad-example.html
+253 silly gunzTarPerm modified mode [ 'examples/0112-basic-maxbounds-pad-example.html', 436, 438 ]
+254 silly gunzTarPerm extractEntry examples/0113-basic-geojson-simple-example.html
+255 silly gunzTarPerm modified mode [ 'examples/0113-basic-geojson-simple-example.html', 436, 438 ]
+256 silly gunzTarPerm extractEntry examples/0114-basic-geojson-center-example.html
+257 silly gunzTarPerm modified mode [ 'examples/0114-basic-geojson-center-example.html', 436, 438 ]
+258 silly gunzTarPerm extractEntry test/touch.html
+259 silly gunzTarPerm modified mode [ 'test/touch.html', 436, 438 ]
+260 silly gunzTarPerm extractEntry examples/0115-basic-events-example.html
+261 silly gunzTarPerm modified mode [ 'examples/0115-basic-events-example.html', 436, 438 ]
+262 silly gunzTarPerm extractEntry examples/0116-basic-access-leaflet-object-example.html
+263 silly gunzTarPerm modified mode [ 'examples/0116-basic-access-leaflet-object-example.html',
+263 silly gunzTarPerm   436,
+263 silly gunzTarPerm   438 ]
+264 silly gunzTarPerm extractEntry examples/0117-basic-routing-show-hide-map-example.html
+265 silly gunzTarPerm modified mode [ 'examples/0117-basic-routing-show-hide-map-example.html',
+265 silly gunzTarPerm   436,
+265 silly gunzTarPerm   438 ]
+266 silly gunzTarPerm extractEntry examples/0118-basic-double-map-events-example.html
+267 silly gunzTarPerm modified mode [ 'examples/0118-basic-double-map-events-example.html',
+267 silly gunzTarPerm   436,
+267 silly gunzTarPerm   438 ]
+268 silly gunzTarPerm extractEntry examples/0119-basic-double-map-access-map-object-example.html
+269 silly gunzTarPerm modified mode [ 'examples/0119-basic-double-map-access-map-object-example.html',
+269 silly gunzTarPerm   436,
+269 silly gunzTarPerm   438 ]
+270 silly gunzTarPerm extractEntry examples/0120-basic-double-map-sharing-attributes-example.html
+271 silly gunzTarPerm modified mode [ 'examples/0120-basic-double-map-sharing-attributes-example.html',
+271 silly gunzTarPerm   436,
+271 silly gunzTarPerm   438 ]
+272 silly gunzTarPerm extractEntry examples/0121-basic-double-map-toggle-example.html
+273 silly gunzTarPerm modified mode [ 'examples/0121-basic-double-map-toggle-example.html',
+273 silly gunzTarPerm   436,
+273 silly gunzTarPerm   438 ]
+274 silly gunzTarPerm extractEntry examples/0122-basic-geojson-update-example.html
+275 silly gunzTarPerm modified mode [ 'examples/0122-basic-geojson-update-example.html', 436, 438 ]
+276 silly gunzTarPerm extractEntry examples/0123-basic-hide-show-map-example.html
+277 silly gunzTarPerm modified mode [ 'examples/0123-basic-hide-show-map-example.html', 436, 438 ]
+278 silly gunzTarPerm extractEntry examples/0124-basic-geojson-non-nested-example.html
+279 silly gunzTarPerm modified mode [ 'examples/0124-basic-geojson-non-nested-example.html',
+279 silly gunzTarPerm   436,
+279 silly gunzTarPerm   438 ]
+280 silly gunzTarPerm extractEntry examples/0125-basic-geojson-nested-example.html
+281 silly gunzTarPerm modified mode [ 'examples/0125-basic-geojson-nested-example.html', 436, 438 ]
+282 silly gunzTarPerm extractEntry examples/0126-basic-bounds-nominatim-example.html
+283 silly gunzTarPerm modified mode [ 'examples/0126-basic-bounds-nominatim-example.html', 436, 438 ]
+284 silly gunzTarPerm extractEntry examples/0127-basic-tiles-wms-example.html
+285 silly gunzTarPerm modified mode [ 'examples/0127-basic-tiles-wms-example.html', 436, 438 ]
+286 silly gunzTarPerm extractEntry examples/0201-layers-simple-example.html
+287 silly gunzTarPerm modified mode [ 'examples/0201-layers-simple-example.html', 436, 438 ]
+288 silly gunzTarPerm extractEntry examples/0202-layers-overlays-simple-example.html
+289 silly gunzTarPerm modified mode [ 'examples/0202-layers-overlays-simple-example.html', 436, 438 ]
+290 silly gunzTarPerm extractEntry examples/0203-layers-imageoverlay-example.html
+291 silly gunzTarPerm modified mode [ 'examples/0203-layers-imageoverlay-example.html', 436, 438 ]
+292 silly gunzTarPerm extractEntry examples/0204-layers-dynamic-addition-example.html
+293 silly gunzTarPerm modified mode [ 'examples/0204-layers-dynamic-addition-example.html',
+293 silly gunzTarPerm   436,
+293 silly gunzTarPerm   438 ]
+294 silly gunzTarPerm extractEntry examples/0205-layers-googlemaps-example.html
+295 silly gunzTarPerm modified mode [ 'examples/0205-layers-googlemaps-example.html', 436, 438 ]
+296 silly gunzTarPerm extractEntry examples/0206-layers-googlemaps-fullsize-example.html
+297 silly gunzTarPerm modified mode [ 'examples/0206-layers-googlemaps-fullsize-example.html',
+297 silly gunzTarPerm   436,
+297 silly gunzTarPerm   438 ]
+298 silly gunzTarPerm extractEntry examples/0207-layers-hide-baselayer-on-selector-example.html
+299 silly gunzTarPerm modified mode [ 'examples/0207-layers-hide-baselayer-on-selector-example.html',
+299 silly gunzTarPerm   436,
+299 silly gunzTarPerm   438 ]
+300 silly gunzTarPerm extractEntry examples/0208-layers-esri-dynamic-layer-example.html
+301 silly gunzTarPerm modified mode [ 'examples/0208-layers-esri-dynamic-layer-example.html',
+301 silly gunzTarPerm   436,
+301 silly gunzTarPerm   438 ]
+302 silly gunzTarPerm extractEntry examples/0209-layers-esri-legend-service-example.html
+303 silly gunzTarPerm modified mode [ 'examples/0209-layers-esri-legend-service-example.html',
+303 silly gunzTarPerm   436,
+303 silly gunzTarPerm   438 ]
+304 silly gunzTarPerm extractEntry examples/0210-layers-webgl-heatmap-example.html
+305 silly gunzTarPerm modified mode [ 'examples/0210-layers-webgl-heatmap-example.html', 436, 438 ]
+306 silly gunzTarPerm extractEntry examples/0211-layers-layergroup-simple-example.html
+307 silly gunzTarPerm modified mode [ 'examples/0211-layers-layergroup-simple-example.html',
+307 silly gunzTarPerm   436,
+307 silly gunzTarPerm   438 ]
+308 silly gunzTarPerm extractEntry examples/0212-layers-hide-overlays-on-selector-example.html
+309 silly gunzTarPerm modified mode [ 'examples/0212-layers-hide-overlays-on-selector-example.html',
+309 silly gunzTarPerm   436,
+309 silly gunzTarPerm   438 ]
+310 silly gunzTarPerm extractEntry examples/0213-layers-bingmaps-example.html
+311 silly gunzTarPerm modified mode [ 'examples/0213-layers-bingmaps-example.html', 436, 438 ]
+312 silly gunzTarPerm extractEntry examples/0214-layers-utfgrid-example.html
+313 silly gunzTarPerm modified mode [ 'examples/0214-layers-utfgrid-example.html', 436, 438 ]
+314 silly gunzTarPerm extractEntry examples/0216-layers-overlays-markercluster-example.html
+315 silly gunzTarPerm modified mode [ 'examples/0216-layers-overlays-markercluster-example.html',
+315 silly gunzTarPerm   436,
+315 silly gunzTarPerm   438 ]
+316 silly gunzTarPerm extractEntry examples/0218-layers-overlays-markers-nested-example.html
+317 silly gunzTarPerm modified mode [ 'examples/0218-layers-overlays-markers-nested-example.html',
+317 silly gunzTarPerm   436,
+317 silly gunzTarPerm   438 ]
+318 silly gunzTarPerm extractEntry examples/0219-layers-overlays-paths-example.html
+319 silly gunzTarPerm modified mode [ 'examples/0219-layers-overlays-paths-example.html', 436, 438 ]
+320 silly gunzTarPerm extractEntry examples/0220-layers-wms-with-different-projection-example.html
+321 silly gunzTarPerm modified mode [ 'examples/0220-layers-wms-with-different-projection-example.html',
+321 silly gunzTarPerm   436,
+321 silly gunzTarPerm   438 ]
+322 silly gunzTarPerm extractEntry examples/0221-layers-heatmap-example.html
+323 silly gunzTarPerm modified mode [ 'examples/0221-layers-heatmap-example.html', 436, 438 ]
+324 silly gunzTarPerm extractEntry examples/0222-layers-overlays-hide-on-zoomout-example.html
+325 silly gunzTarPerm modified mode [ 'examples/0222-layers-overlays-hide-on-zoomout-example.html',
+325 silly gunzTarPerm   436,
+325 silly gunzTarPerm   438 ]
+326 silly gunzTarPerm extractEntry examples/0223-layers-refresh-overlay-every-minute-example.html
+327 silly gunzTarPerm modified mode [ 'examples/0223-layers-refresh-overlay-every-minute-example.html',
+327 silly gunzTarPerm   436,
+327 silly gunzTarPerm   438 ]
+328 silly gunzTarPerm extractEntry examples/0224-layers-esri-base-layer-example.html
+329 silly gunzTarPerm modified mode [ 'examples/0224-layers-esri-base-layer-example.html', 436, 438 ]
+330 silly gunzTarPerm extractEntry examples/0225-layers-esri-feature-layer-example.html
+331 silly gunzTarPerm modified mode [ 'examples/0225-layers-esri-feature-layer-example.html',
+331 silly gunzTarPerm   436,
+331 silly gunzTarPerm   438 ]
+332 silly gunzTarPerm extractEntry examples/0226-layers-esri-tiled-map-layer-example.html
+333 silly gunzTarPerm modified mode [ 'examples/0226-layers-esri-tiled-map-layer-example.html',
+333 silly gunzTarPerm   436,
+333 silly gunzTarPerm   438 ]
+334 silly gunzTarPerm extractEntry examples/0227-layers-esri-image-layer-example.html
+335 silly gunzTarPerm modified mode [ 'examples/0227-layers-esri-image-layer-example.html',
+335 silly gunzTarPerm   436,
+335 silly gunzTarPerm   438 ]
+336 silly gunzTarPerm extractEntry examples/0100-basic-first-example.html
+337 silly gunzTarPerm modified mode [ 'examples/0100-basic-first-example.html', 436, 438 ]
+338 silly gunzTarPerm extractEntry examples/0229-layers-esri-heatmap-layer-example.html
+339 silly gunzTarPerm modified mode [ 'examples/0229-layers-esri-heatmap-layer-example.html',
+339 silly gunzTarPerm   436,
+339 silly gunzTarPerm   438 ]
+340 silly gunzTarPerm extractEntry examples/0230-layers-yandex-example.html
+341 silly gunzTarPerm modified mode [ 'examples/0230-layers-yandex-example.html', 436, 438 ]
+342 silly gunzTarPerm extractEntry examples/0231-layers-overlay-geojson-example.html
+343 silly gunzTarPerm modified mode [ 'examples/0231-layers-overlay-geojson-example.html', 436, 438 ]
+344 silly gunzTarPerm extractEntry examples/0300-paths-simple-example.html
+345 silly gunzTarPerm modified mode [ 'examples/0300-paths-simple-example.html', 436, 438 ]
+346 silly gunzTarPerm extractEntry examples/0301-paths-types-example.html
+347 silly gunzTarPerm modified mode [ 'examples/0301-paths-types-example.html', 436, 438 ]
+348 silly gunzTarPerm extractEntry examples/0302-paths-ajax-load-example.html
+349 silly gunzTarPerm modified mode [ 'examples/0302-paths-ajax-load-example.html', 436, 438 ]
+350 silly gunzTarPerm extractEntry examples/0303-paths-3000-items-example.html
+351 silly gunzTarPerm modified mode [ 'examples/0303-paths-3000-items-example.html', 436, 438 ]
+352 silly gunzTarPerm extractEntry examples/0304-paths-advanced-example.html
+353 silly gunzTarPerm modified mode [ 'examples/0304-paths-advanced-example.html', 436, 438 ]
+354 silly gentlyRm C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\leaflet-control-geocoder-b9fec534\node_modules is being purged
+355 verbose gentlyRm don't care about contents; nuking C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\leaflet-control-geocoder-b9fec534\node_modules
+356 silly gunzTarPerm extractEntry examples/0305-paths-change-in-group-layer-example.html
+357 silly gunzTarPerm modified mode [ 'examples/0305-paths-change-in-group-layer-example.html',
+357 silly gunzTarPerm   436,
+357 silly gunzTarPerm   438 ]
+358 silly gunzTarPerm extractEntry examples/0306-paths-decorations-simple-example.html
+359 silly gunzTarPerm modified mode [ 'examples/0306-paths-decorations-simple-example.html',
+359 silly gunzTarPerm   436,
+359 silly gunzTarPerm   438 ]
+360 silly gunzTarPerm extractEntry examples/0307-paths-events-example-with-id.html
+361 silly gunzTarPerm modified mode [ 'examples/0307-paths-events-example-with-id.html', 436, 438 ]
+362 silly gunzTarPerm extractEntry examples/0307-paths-events-example.html
+363 silly gunzTarPerm modified mode [ 'examples/0307-paths-events-example.html', 436, 438 ]
+364 silly gunzTarPerm extractEntry examples/0400-controls-custom-layer-control-example.html
+365 silly gunzTarPerm modified mode [ 'examples/0400-controls-custom-layer-control-example.html',
+365 silly gunzTarPerm   436,
+365 silly gunzTarPerm   438 ]
+366 silly gunzTarPerm extractEntry examples/0401-controls-draw-example.html
+367 silly gunzTarPerm modified mode [ 'examples/0401-controls-draw-example.html', 436, 438 ]
+368 silly gunzTarPerm extractEntry examples/0402-controls-scale-example.html
+369 silly gunzTarPerm modified mode [ 'examples/0402-controls-scale-example.html', 436, 438 ]
+370 silly gunzTarPerm extractEntry examples/0403-controls-fullscreen-example.html
+371 silly gunzTarPerm modified mode [ 'examples/0403-controls-fullscreen-example.html', 436, 438 ]
+372 silly gunzTarPerm extractEntry examples/0404-controls-minimap-example.html
+373 silly gunzTarPerm modified mode [ 'examples/0404-controls-minimap-example.html', 436, 438 ]
+374 silly gunzTarPerm extractEntry examples/0405-controls-search-example.html
+375 silly gunzTarPerm modified mode [ 'examples/0405-controls-search-example.html', 436, 438 ]
+376 silly gunzTarPerm extractEntry examples/0406-controls-custom-example.html
+377 silly gunzTarPerm modified mode [ 'examples/0406-controls-custom-example.html', 436, 438 ]
+378 silly gunzTarPerm extractEntry examples/0500-markers-simple-example.html
+379 silly gunzTarPerm modified mode [ 'examples/0500-markers-simple-example.html', 436, 438 ]
+380 silly gunzTarPerm extractEntry examples/0501-markers-events-add-example.html
+381 silly gunzTarPerm modified mode [ 'examples/0501-markers-events-add-example.html', 436, 438 ]
+382 silly gunzTarPerm extractEntry examples/0502-markers-add-remove-example.html
+383 silly gunzTarPerm modified mode [ 'examples/0502-markers-add-remove-example.html', 436, 438 ]
+384 silly gunzTarPerm extractEntry examples/0503-markers-icons-example.html
+385 silly gunzTarPerm modified mode [ 'examples/0503-markers-icons-example.html', 436, 438 ]
+386 silly gunzTarPerm extractEntry examples/0504-markers-popup-example.html
+387 silly gunzTarPerm modified mode [ 'examples/0504-markers-popup-example.html', 436, 438 ]
+388 silly gunzTarPerm extractEntry examples/0505-markers-label-example.html
+389 silly gunzTarPerm modified mode [ 'examples/0505-markers-label-example.html', 436, 438 ]
+390 silly gunzTarPerm extractEntry examples/0506-markers-groups-example.html
+391 silly gunzTarPerm modified mode [ 'examples/0506-markers-groups-example.html', 436, 438 ]
+392 silly gunzTarPerm extractEntry examples/0507-markers-rotation-example.html
+393 silly gunzTarPerm modified mode [ 'examples/0507-markers-rotation-example.html', 436, 438 ]
+394 silly gunzTarPerm extractEntry examples/0508-markers-change-opacity-example.html
+395 silly gunzTarPerm modified mode [ 'examples/0508-markers-change-opacity-example.html', 436, 438 ]
+396 silly gunzTarPerm extractEntry examples/0509-markers-clustering-example.html
+397 silly gunzTarPerm modified mode [ 'examples/0509-markers-clustering-example.html', 436, 438 ]
+398 silly gunzTarPerm extractEntry examples/0510-markers-clustering-without-overlays-example.html
+399 silly gunzTarPerm modified mode [ 'examples/0510-markers-clustering-without-overlays-example.html',
+399 silly gunzTarPerm   436,
+399 silly gunzTarPerm   438 ]
+400 silly gunzTarPerm extractEntry examples/0511-markers-modal-markercluster-example.html
+401 silly gunzTarPerm modified mode [ 'examples/0511-markers-modal-markercluster-example.html',
+401 silly gunzTarPerm   436,
+401 silly gunzTarPerm   438 ]
+402 silly gunzTarPerm extractEntry examples/0512-markers-clustering-10000-markers-example.html
+403 silly gunzTarPerm modified mode [ 'examples/0512-markers-clustering-10000-markers-example.html',
+403 silly gunzTarPerm   436,
+403 silly gunzTarPerm   438 ]
+404 silly gunzTarPerm extractEntry examples/0513-markers-events-example-with-id.html
+405 silly gunzTarPerm modified mode [ 'examples/0513-markers-events-example-with-id.html', 436, 438 ]
+406 silly gunzTarPerm extractEntry examples/0513-markers-events-example.html
+407 silly gunzTarPerm modified mode [ 'examples/0513-markers-events-example.html', 436, 438 ]
+408 silly gunzTarPerm extractEntry examples/0514-markers-delayed-events.html
+409 silly gunzTarPerm modified mode [ 'examples/0514-markers-delayed-events.html', 436, 438 ]
+410 silly gunzTarPerm extractEntry examples/0515-markers-angular-template-example.html
+411 silly gunzTarPerm modified mode [ 'examples/0515-markers-angular-template-example.html',
+411 silly gunzTarPerm   436,
+411 silly gunzTarPerm   438 ]
+412 silly gunzTarPerm extractEntry examples/0516-markers-two-maps-events-example.html
+413 silly gunzTarPerm modified mode [ 'examples/0516-markers-two-maps-events-example.html',
+413 silly gunzTarPerm   436,
+413 silly gunzTarPerm   438 ]
+414 silly gunzTarPerm extractEntry examples/0600-mixed-image-legend-example.html
+415 silly gunzTarPerm modified mode [ 'examples/0600-mixed-image-legend-example.html', 436, 438 ]
+416 silly gunzTarPerm extractEntry examples/0601-mixed-geojson-events-example-w-id.html
+417 silly gunzTarPerm modified mode [ 'examples/0601-mixed-geojson-events-example-w-id.html',
+417 silly gunzTarPerm   436,
+417 silly gunzTarPerm   438 ]
+418 silly gunzTarPerm extractEntry examples/0601-mixed-geojson-events-example.html
+419 silly gunzTarPerm modified mode [ 'examples/0601-mixed-geojson-events-example.html', 436, 438 ]
+420 silly gunzTarPerm extractEntry examples/0602-mixed-mapbox-tiles-geojson-example.html
+421 silly gunzTarPerm modified mode [ 'examples/0602-mixed-mapbox-tiles-geojson-example.html',
+421 silly gunzTarPerm   436,
+421 silly gunzTarPerm   438 ]
+422 silly gunzTarPerm extractEntry examples/0603-mixed-layers-overlays-geojson-example.html
+423 silly gunzTarPerm modified mode [ 'examples/0603-mixed-layers-overlays-geojson-example.html',
+423 silly gunzTarPerm   436,
+423 silly gunzTarPerm   438 ]
+424 silly gunzTarPerm extractEntry examples/0604-mixed-markers-nested-events-example.html
+425 silly gunzTarPerm modified mode [ 'examples/0604-mixed-markers-nested-events-example.html',
+425 silly gunzTarPerm   436,
+425 silly gunzTarPerm   438 ]
+426 silly gunzTarPerm extractEntry examples/0605-mixed-overlays-markers-nested-no-watch-example.html
+427 silly gunzTarPerm modified mode [ 'examples/0605-mixed-overlays-markers-nested-no-watch-example.html',
+427 silly gunzTarPerm   436,
+427 silly gunzTarPerm   438 ]
+428 silly gunzTarPerm extractEntry examples/0606-mixed-esri-legend-service-example.html
+429 silly gunzTarPerm modified mode [ 'examples/0606-mixed-esri-legend-service-example.html',
+429 silly gunzTarPerm   436,
+429 silly gunzTarPerm   438 ]
+430 silly gunzTarPerm extractEntry examples/0607-mixed-esri-multilayer-legend-service-example.html
+431 silly gunzTarPerm modified mode [ 'examples/0607-mixed-esri-multilayer-legend-service-example.html',
+431 silly gunzTarPerm   436,
+431 silly gunzTarPerm   438 ]
+432 silly gunzTarPerm extractEntry examples/css/viewer.css
+433 silly gunzTarPerm modified mode [ 'examples/css/viewer.css', 436, 438 ]
+434 silly gunzTarPerm extractEntry examples/images/andes.jpg
+435 silly gunzTarPerm modified mode [ 'examples/images/andes.jpg', 436, 438 ]
+436 silly gunzTarPerm extractEntry examples/img/100x100_PNG/bigben100.png
+437 silly gunzTarPerm modified mode [ 'examples/img/100x100_PNG/bigben100.png', 436, 438 ]
+438 silly gunzTarPerm extractEntry examples/img/100x100_PNG/colosseum100.png
+439 silly gunzTarPerm modified mode [ 'examples/img/100x100_PNG/colosseum100.png', 436, 438 ]
+440 silly gunzTarPerm extractEntry examples/img/100x100_PNG/egypt100.png
+441 silly gunzTarPerm modified mode [ 'examples/img/100x100_PNG/egypt100.png', 436, 438 ]
+442 silly gunzTarPerm extractEntry examples/img/100x100_PNG/eiffel100.png
+443 silly gunzTarPerm modified mode [ 'examples/img/100x100_PNG/eiffel100.png', 436, 438 ]
+444 silly gunzTarPerm extractEntry examples/img/100x100_PNG/liberty100.png
+445 silly gunzTarPerm modified mode [ 'examples/img/100x100_PNG/liberty100.png', 436, 438 ]
+446 silly gunzTarPerm extractEntry examples/img/100x100_PNG/tajmahal100.png
+447 silly gunzTarPerm modified mode [ 'examples/img/100x100_PNG/tajmahal100.png', 436, 438 ]
+448 silly gunzTarPerm extractEntry examples/img/San-francisco-map.png
+449 silly gunzTarPerm modified mode [ 'examples/img/San-francisco-map.png', 436, 438 ]
+450 silly gunzTarPerm extractEntry examples/img/leaf-green.png
+451 silly gunzTarPerm modified mode [ 'examples/img/leaf-green.png', 436, 438 ]
+452 silly gunzTarPerm extractEntry examples/img/leaf-orange.png
+453 silly gunzTarPerm modified mode [ 'examples/img/leaf-orange.png', 436, 438 ]
+454 silly gunzTarPerm extractEntry examples/img/leaf-shadow.png
+455 silly gunzTarPerm modified mode [ 'examples/img/leaf-shadow.png', 436, 438 ]
+456 silly gunzTarPerm extractEntry examples/js/controllers.js
+457 silly gunzTarPerm modified mode [ 'examples/js/controllers.js', 436, 438 ]
+458 silly gunzTarPerm extractEntry examples/js/viewer.js
+459 silly gunzTarPerm modified mode [ 'examples/js/viewer.js', 436, 438 ]
+460 silly gunzTarPerm extractEntry examples/js/controllers/BasicAccessLeafletObjectController.js
+461 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicAccessLeafletObjectController.js',
+461 silly gunzTarPerm   436,
+461 silly gunzTarPerm   438 ]
+462 silly gunzTarPerm extractEntry examples/js/controllers/LayersEsriLegendServiceController.js
+463 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersEsriLegendServiceController.js',
+463 silly gunzTarPerm   436,
+463 silly gunzTarPerm   438 ]
+464 silly gunzTarPerm extractEntry examples/js/controllers/LayersEsriTiledMapLayerController.js
+465 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersEsriTiledMapLayerController.js',
+465 silly gunzTarPerm   436,
+465 silly gunzTarPerm   438 ]
+466 silly gunzTarPerm extractEntry examples/js/controllers/LayersHeatmapController.js
+467 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersHeatmapController.js',
+467 silly gunzTarPerm   436,
+467 silly gunzTarPerm   438 ]
+468 silly gunzTarPerm extractEntry examples/js/controllers/LayersEsriImageLayerController.js
+469 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersEsriImageLayerController.js',
+469 silly gunzTarPerm   436,
+469 silly gunzTarPerm   438 ]
+470 silly gunzTarPerm extractEntry examples/js/controllers/LayersHideOverlaysOnSelectorController.js
+471 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersHideOverlaysOnSelectorController.js',
+471 silly gunzTarPerm   436,
+471 silly gunzTarPerm   438 ]
+472 silly gunzTarPerm extractEntry examples/js/controllers/LayersImageOverlayController.js
+473 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersImageOverlayController.js',
+473 silly gunzTarPerm   436,
+473 silly gunzTarPerm   438 ]
+474 silly gunzTarPerm extractEntry examples/js/controllers/LayersLayergroupSimpleController.js
+475 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersLayergroupSimpleController.js',
+475 silly gunzTarPerm   436,
+475 silly gunzTarPerm   438 ]
+476 silly gunzTarPerm extractEntry examples/js/controllers/LayersOverlayGeoJSONController.js
+477 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersOverlayGeoJSONController.js',
+477 silly gunzTarPerm   436,
+477 silly gunzTarPerm   438 ]
+478 silly gunzTarPerm extractEntry examples/js/controllers/LayersOverlaysHideOnZoomOutController.js
+479 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersOverlaysHideOnZoomOutController.js',
+479 silly gunzTarPerm   436,
+479 silly gunzTarPerm   438 ]
+480 silly gunzTarPerm extractEntry examples/js/controllers/LayersEsriHeatmapLayerController.js
+481 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersEsriHeatmapLayerController.js',
+481 silly gunzTarPerm   436,
+481 silly gunzTarPerm   438 ]
+482 silly gunzTarPerm extractEntry examples/js/controllers/LayersOverlaysMarkerclusterController.js
+483 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersOverlaysMarkerclusterController.js',
+483 silly gunzTarPerm   436,
+483 silly gunzTarPerm   438 ]
+484 silly gunzTarPerm extractEntry examples/js/controllers/LayersEsriFeatureLayerController.js
+485 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersEsriFeatureLayerController.js',
+485 silly gunzTarPerm   436,
+485 silly gunzTarPerm   438 ]
+486 silly gunzTarPerm extractEntry examples/js/controllers/LayersOverlaysMarkersNestedController.js
+487 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersOverlaysMarkersNestedController.js',
+487 silly gunzTarPerm   436,
+487 silly gunzTarPerm   438 ]
+488 silly gunzTarPerm extractEntry examples/js/controllers/LayersEsriDynamicLayerController.js
+489 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersEsriDynamicLayerController.js',
+489 silly gunzTarPerm   436,
+489 silly gunzTarPerm   438 ]
+490 silly gunzTarPerm extractEntry examples/js/controllers/LayersOverlaysPathsController.js
+491 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersOverlaysPathsController.js',
+491 silly gunzTarPerm   436,
+491 silly gunzTarPerm   438 ]
+492 silly gunzTarPerm extractEntry examples/js/controllers/LayersEsriClusteredLayerController.js
+493 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersEsriClusteredLayerController.js',
+493 silly gunzTarPerm   436,
+493 silly gunzTarPerm   438 ]
+494 silly gunzTarPerm extractEntry examples/js/controllers/LayersOverlaysSimpleController.js
+495 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersOverlaysSimpleController.js',
+495 silly gunzTarPerm   436,
+495 silly gunzTarPerm   438 ]
+496 silly gunzTarPerm extractEntry examples/js/controllers/LayersEsriBaseMapLayerController.js
+497 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersEsriBaseMapLayerController.js',
+497 silly gunzTarPerm   436,
+497 silly gunzTarPerm   438 ]
+498 silly gunzTarPerm extractEntry examples/js/controllers/LayersRefreshOverlayEveryMinuteController.js
+499 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersRefreshOverlayEveryMinuteController.js',
+499 silly gunzTarPerm   436,
+499 silly gunzTarPerm   438 ]
+500 silly gunzTarPerm extractEntry examples/js/controllers/LayersDynamicAdditionController.js
+501 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersDynamicAdditionController.js',
+501 silly gunzTarPerm   436,
+501 silly gunzTarPerm   438 ]
+502 silly gunzTarPerm extractEntry examples/js/controllers/LayersSimpleController.js
+503 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersSimpleController.js', 436, 438 ]
+504 silly gunzTarPerm extractEntry examples/js/controllers/LayersBingMapsController.js
+505 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersBingMapsController.js',
+505 silly gunzTarPerm   436,
+505 silly gunzTarPerm   438 ]
+506 silly gunzTarPerm extractEntry examples/js/controllers/LayersUTFGridController.js
+507 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersUTFGridController.js',
+507 silly gunzTarPerm   436,
+507 silly gunzTarPerm   438 ]
+508 silly gunzTarPerm extractEntry examples/js/controllers/ImageLegendServiceController.js
+509 silly gunzTarPerm modified mode [ 'examples/js/controllers/ImageLegendServiceController.js',
+509 silly gunzTarPerm   436,
+509 silly gunzTarPerm   438 ]
+510 silly gunzTarPerm extractEntry examples/js/controllers/LayersWMSWithDifferentProjectionController.js
+511 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersWMSWithDifferentProjectionController.js',
+511 silly gunzTarPerm   436,
+511 silly gunzTarPerm   438 ]
+512 silly gunzTarPerm extractEntry examples/js/controllers/GoogleMapsFullsizeController.js
+513 silly gunzTarPerm modified mode [ 'examples/js/controllers/GoogleMapsFullsizeController.js',
+513 silly gunzTarPerm   436,
+513 silly gunzTarPerm   438 ]
+514 silly gunzTarPerm extractEntry examples/js/controllers/LayersWebGLHeatmapController.js
+515 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersWebGLHeatmapController.js',
+515 silly gunzTarPerm   436,
+515 silly gunzTarPerm   438 ]
+516 silly gunzTarPerm extractEntry examples/js/controllers/GoogleMapsController.js
+517 silly gunzTarPerm modified mode [ 'examples/js/controllers/GoogleMapsController.js', 436, 438 ]
+518 silly gunzTarPerm extractEntry examples/js/controllers/LayersYandexController.js
+519 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersYandexController.js', 436, 438 ]
+520 silly gunzTarPerm extractEntry examples/js/controllers/GeoJSONNonNestedController.js
+521 silly gunzTarPerm modified mode [ 'examples/js/controllers/GeoJSONNonNestedController.js',
+521 silly gunzTarPerm   436,
+521 silly gunzTarPerm   438 ]
+522 silly gunzTarPerm extractEntry examples/js/controllers/LegendEsriLegendServiceController.js
+523 silly gunzTarPerm modified mode [ 'examples/js/controllers/LegendEsriLegendServiceController.js',
+523 silly gunzTarPerm   436,
+523 silly gunzTarPerm   438 ]
+524 silly gunzTarPerm extractEntry examples/js/controllers/GeoJSONNestedController.js
+525 silly gunzTarPerm modified mode [ 'examples/js/controllers/GeoJSONNestedController.js',
+525 silly gunzTarPerm   436,
+525 silly gunzTarPerm   438 ]
+526 silly gunzTarPerm extractEntry examples/js/controllers/LegendEsriMultilayerLegendServiceController.js
+527 silly gunzTarPerm modified mode [ 'examples/js/controllers/LegendEsriMultilayerLegendServiceController.js',
+527 silly gunzTarPerm   436,
+527 silly gunzTarPerm   438 ]
+528 silly gunzTarPerm extractEntry examples/js/controllers/GeoJSONController.js
+529 silly gunzTarPerm modified mode [ 'examples/js/controllers/GeoJSONController.js', 436, 438 ]
+530 silly gunzTarPerm extractEntry examples/js/controllers/MarkersAddRemoveController.js
+531 silly gunzTarPerm modified mode [ 'examples/js/controllers/MarkersAddRemoveController.js',
+531 silly gunzTarPerm   436,
+531 silly gunzTarPerm   438 ]
+532 silly gunzTarPerm extractEntry examples/js/controllers/GeoJSONCenterController.js
+533 silly gunzTarPerm modified mode [ 'examples/js/controllers/GeoJSONCenterController.js',
+533 silly gunzTarPerm   436,
+533 silly gunzTarPerm   438 ]
+534 silly gunzTarPerm extractEntry examples/js/controllers/MarkersAngularTemplateController.js
+535 silly gunzTarPerm modified mode [ 'examples/js/controllers/MarkersAngularTemplateController.js',
+535 silly gunzTarPerm   436,
+535 silly gunzTarPerm   438 ]
+536 silly gunzTarPerm extractEntry examples/js/controllers/ControlsSearchController.js
+537 silly gunzTarPerm modified mode [ 'examples/js/controllers/ControlsSearchController.js',
+537 silly gunzTarPerm   436,
+537 silly gunzTarPerm   438 ]
+538 silly gunzTarPerm extractEntry examples/js/controllers/MarkersChangeOpacityController.js
+539 silly gunzTarPerm modified mode [ 'examples/js/controllers/MarkersChangeOpacityController.js',
+539 silly gunzTarPerm   436,
+539 silly gunzTarPerm   438 ]
+540 silly gunzTarPerm extractEntry examples/js/controllers/ControlsScaleController.js
+541 silly gunzTarPerm modified mode [ 'examples/js/controllers/ControlsScaleController.js',
+541 silly gunzTarPerm   436,
+541 silly gunzTarPerm   438 ]
+542 silly gunzTarPerm extractEntry examples/js/controllers/MarkersClustering10000MarkersController.js
+543 silly gunzTarPerm modified mode [ 'examples/js/controllers/MarkersClustering10000MarkersController.js',
+543 silly gunzTarPerm   436,
+543 silly gunzTarPerm   438 ]
+544 silly gunzTarPerm extractEntry examples/js/controllers/ControlsMinimapController.js
+545 silly gunzTarPerm modified mode [ 'examples/js/controllers/ControlsMinimapController.js',
+545 silly gunzTarPerm   436,
+545 silly gunzTarPerm   438 ]
+546 silly gunzTarPerm extractEntry examples/js/controllers/MarkersClusteringController.js
+547 silly gunzTarPerm modified mode [ 'examples/js/controllers/MarkersClusteringController.js',
+547 silly gunzTarPerm   436,
+547 silly gunzTarPerm   438 ]
+548 silly gunzTarPerm extractEntry examples/js/controllers/ControlsFullscreenController.js
+549 silly gunzTarPerm modified mode [ 'examples/js/controllers/ControlsFullscreenController.js',
+549 silly gunzTarPerm   436,
+549 silly gunzTarPerm   438 ]
+550 silly gunzTarPerm extractEntry examples/js/controllers/MarkersClusteringWithoutOverlaysController.js
+551 silly gunzTarPerm modified mode [ 'examples/js/controllers/MarkersClusteringWithoutOverlaysController.js',
+551 silly gunzTarPerm   436,
+551 silly gunzTarPerm   438 ]
+552 silly gunzTarPerm extractEntry examples/js/controllers/ControlsDrawController.js
+553 silly gunzTarPerm modified mode [ 'examples/js/controllers/ControlsDrawController.js', 436, 438 ]
+554 silly gunzTarPerm extractEntry examples/js/controllers/MarkersDelayedEventsController.js
+555 silly gunzTarPerm modified mode [ 'examples/js/controllers/MarkersDelayedEventsController.js',
+555 silly gunzTarPerm   436,
+555 silly gunzTarPerm   438 ]
+556 silly gunzTarPerm extractEntry examples/js/controllers/ControlsCustomLayerControlController.js
+557 silly gunzTarPerm modified mode [ 'examples/js/controllers/ControlsCustomLayerControlController.js',
+557 silly gunzTarPerm   436,
+557 silly gunzTarPerm   438 ]
+558 silly gunzTarPerm extractEntry examples/js/controllers/MarkersEventsAddController.js
+559 silly gunzTarPerm modified mode [ 'examples/js/controllers/MarkersEventsAddController.js',
+559 silly gunzTarPerm   436,
+559 silly gunzTarPerm   438 ]
+560 silly gunzTarPerm extractEntry examples/js/controllers/ControlsCustomController.js
+561 silly gunzTarPerm modified mode [ 'examples/js/controllers/ControlsCustomController.js',
+561 silly gunzTarPerm   436,
+561 silly gunzTarPerm   438 ]
+562 silly gunzTarPerm extractEntry examples/js/controllers/MarkersEventsController.js
+563 silly gunzTarPerm modified mode [ 'examples/js/controllers/MarkersEventsController.js',
+563 silly gunzTarPerm   436,
+563 silly gunzTarPerm   438 ]
+564 silly gunzTarPerm extractEntry examples/js/controllers/BasicTilesZoomChangerController.js
+565 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicTilesZoomChangerController.js',
+565 silly gunzTarPerm   436,
+565 silly gunzTarPerm   438 ]
+566 silly gunzTarPerm extractEntry examples/js/controllers/MarkersEventsWithIDController.js
+567 silly gunzTarPerm modified mode [ 'examples/js/controllers/MarkersEventsWithIDController.js',
+567 silly gunzTarPerm   436,
+567 silly gunzTarPerm   438 ]
+568 silly gunzTarPerm extractEntry examples/js/controllers/BasicTilesWMSController.js
+569 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicTilesWMSController.js',
+569 silly gunzTarPerm   436,
+569 silly gunzTarPerm   438 ]
+570 silly gunzTarPerm extractEntry examples/js/controllers/MarkersGroupController.js
+571 silly gunzTarPerm modified mode [ 'examples/js/controllers/MarkersGroupController.js', 436, 438 ]
+572 silly gunzTarPerm extractEntry examples/js/controllers/BasicTilesController.js
+573 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicTilesController.js', 436, 438 ]
+574 silly gunzTarPerm extractEntry examples/js/controllers/MarkersIconsController.js
+575 silly gunzTarPerm modified mode [ 'examples/js/controllers/MarkersIconsController.js', 436, 438 ]
+576 silly gunzTarPerm extractEntry examples/js/controllers/BasicMaxBoundsPadController.js
+577 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicMaxBoundsPadController.js',
+577 silly gunzTarPerm   436,
+577 silly gunzTarPerm   438 ]
+578 silly gunzTarPerm extractEntry examples/js/controllers/MarkersLabelController.js
+579 silly gunzTarPerm modified mode [ 'examples/js/controllers/MarkersLabelController.js', 436, 438 ]
+580 silly gunzTarPerm extractEntry examples/js/controllers/BasicMaxBoundsController.js
+581 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicMaxBoundsController.js',
+581 silly gunzTarPerm   436,
+581 silly gunzTarPerm   438 ]
+582 silly gunzTarPerm extractEntry examples/js/controllers/MarkersModalMarkerClusterController.js
+583 silly gunzTarPerm modified mode [ 'examples/js/controllers/MarkersModalMarkerClusterController.js',
+583 silly gunzTarPerm   436,
+583 silly gunzTarPerm   438 ]
+584 silly gunzTarPerm extractEntry examples/js/controllers/BasicMapWithoutAnimationsController.js
+585 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicMapWithoutAnimationsController.js',
+585 silly gunzTarPerm   436,
+585 silly gunzTarPerm   438 ]
+586 silly gunzTarPerm extractEntry examples/js/controllers/MarkersPopupController.js
+587 silly gunzTarPerm modified mode [ 'examples/js/controllers/MarkersPopupController.js', 436, 438 ]
+588 silly gunzTarPerm extractEntry examples/js/controllers/BasicLegendController.js
+589 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicLegendController.js', 436, 438 ]
+590 silly gunzTarPerm extractEntry examples/js/controllers/MarkersRotationController.js
+591 silly gunzTarPerm modified mode [ 'examples/js/controllers/MarkersRotationController.js',
+591 silly gunzTarPerm   436,
+591 silly gunzTarPerm   438 ]
+592 silly gunzTarPerm extractEntry examples/js/controllers/BasicLFCenterController.js
+593 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicLFCenterController.js',
+593 silly gunzTarPerm   436,
+593 silly gunzTarPerm   438 ]
+594 silly gunzTarPerm extractEntry examples/js/controllers/MarkersSimpleController.js
+595 silly gunzTarPerm modified mode [ 'examples/js/controllers/MarkersSimpleController.js',
+595 silly gunzTarPerm   436,
+595 silly gunzTarPerm   438 ]
+596 silly gunzTarPerm extractEntry examples/js/controllers/BasicHideShowMapController.js
+597 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicHideShowMapController.js',
+597 silly gunzTarPerm   436,
+597 silly gunzTarPerm   438 ]
+598 silly gunzTarPerm extractEntry examples/js/controllers/MarkersTwoMapsEventsController.js
+599 silly gunzTarPerm modified mode [ 'examples/js/controllers/MarkersTwoMapsEventsController.js',
+599 silly gunzTarPerm   436,
+599 silly gunzTarPerm   438 ]
+600 silly gunzTarPerm extractEntry examples/js/controllers/BasicGeoJSONUpdateController.js
+601 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicGeoJSONUpdateController.js',
+601 silly gunzTarPerm   436,
+601 silly gunzTarPerm   438 ]
+602 silly gunzTarPerm extractEntry examples/js/controllers/MixedGeoJSONEventsController.js
+603 silly gunzTarPerm modified mode [ 'examples/js/controllers/MixedGeoJSONEventsController.js',
+603 silly gunzTarPerm   436,
+603 silly gunzTarPerm   438 ]
+604 silly gunzTarPerm extractEntry examples/js/controllers/BasicFirstController.js
+605 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicFirstController.js', 436, 438 ]
+606 silly gunzTarPerm extractEntry examples/js/controllers/MixedGeoJSONEventsWithIDController.js
+607 silly gunzTarPerm modified mode [ 'examples/js/controllers/MixedGeoJSONEventsWithIDController.js',
+607 silly gunzTarPerm   436,
+607 silly gunzTarPerm   438 ]
+608 silly gunzTarPerm extractEntry examples/js/controllers/BasicEventsController.js
+609 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicEventsController.js', 436, 438 ]
+610 silly gunzTarPerm extractEntry examples/js/controllers/MixedLayersOverlaysGeoJSONController.js
+611 silly gunzTarPerm modified mode [ 'examples/js/controllers/MixedLayersOverlaysGeoJSONController.js',
+611 silly gunzTarPerm   436,
+611 silly gunzTarPerm   438 ]
+612 silly gunzTarPerm extractEntry examples/js/controllers/BasicDynamicAddRemoveMapExample.js
+613 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicDynamicAddRemoveMapExample.js',
+613 silly gunzTarPerm   436,
+613 silly gunzTarPerm   438 ]
+614 silly gunzTarPerm extractEntry examples/js/controllers/MixedMOverlaysMarkersNestedNoWatchController.js
+615 silly gunzTarPerm modified mode [ 'examples/js/controllers/MixedMOverlaysMarkersNestedNoWatchController.js',
+615 silly gunzTarPerm   436,
+615 silly gunzTarPerm   438 ]
+616 silly gunzTarPerm extractEntry examples/js/controllers/BasicDoubleMapToggleController.js
+617 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicDoubleMapToggleController.js',
+617 silly gunzTarPerm   436,
+617 silly gunzTarPerm   438 ]
+618 silly gunzTarPerm extractEntry examples/js/controllers/MixedMapboxTilesGeojsonController.js
+619 silly gunzTarPerm modified mode [ 'examples/js/controllers/MixedMapboxTilesGeojsonController.js',
+619 silly gunzTarPerm   436,
+619 silly gunzTarPerm   438 ]
+620 silly gunzTarPerm extractEntry examples/js/controllers/BasicDoubleMapSharingAttributesController.js
+621 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicDoubleMapSharingAttributesController.js',
+621 silly gunzTarPerm   436,
+621 silly gunzTarPerm   438 ]
+622 silly gunzTarPerm extractEntry examples/js/controllers/MixedMarkersNestedEventsController.js
+623 silly gunzTarPerm modified mode [ 'examples/js/controllers/MixedMarkersNestedEventsController.js',
+623 silly gunzTarPerm   436,
+623 silly gunzTarPerm   438 ]
+624 silly gunzTarPerm extractEntry examples/js/controllers/BasicDoubleMapEventsController.js
+625 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicDoubleMapEventsController.js',
+625 silly gunzTarPerm   436,
+625 silly gunzTarPerm   438 ]
+626 silly gunzTarPerm extractEntry examples/js/controllers/PathEventsController.js
+627 silly gunzTarPerm modified mode [ 'examples/js/controllers/PathEventsController.js', 436, 438 ]
+628 silly gunzTarPerm extractEntry examples/js/controllers/BasicDoubleMapAccessMapObjectController.js
+629 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicDoubleMapAccessMapObjectController.js',
+629 silly gunzTarPerm   436,
+629 silly gunzTarPerm   438 ]
+630 silly gunzTarPerm extractEntry examples/js/controllers/PathEventsWithIDController.js
+631 silly gunzTarPerm modified mode [ 'examples/js/controllers/PathEventsWithIDController.js',
+631 silly gunzTarPerm   436,
+631 silly gunzTarPerm   438 ]
+632 silly gunzTarPerm extractEntry examples/js/controllers/BasicCustomParametersController.js
+633 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicCustomParametersController.js',
+633 silly gunzTarPerm   436,
+633 silly gunzTarPerm   438 ]
+634 silly gunzTarPerm extractEntry examples/js/controllers/PathSimpleController.js
+635 silly gunzTarPerm modified mode [ 'examples/js/controllers/PathSimpleController.js', 436, 438 ]
+636 silly gunzTarPerm extractEntry examples/js/controllers/BasicCenterUrlHashController.js
+637 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicCenterUrlHashController.js',
+637 silly gunzTarPerm   436,
+637 silly gunzTarPerm   438 ]
+638 silly gunzTarPerm extractEntry examples/js/controllers/PathTypesController.js
+639 silly gunzTarPerm modified mode [ 'examples/js/controllers/PathTypesController.js', 436, 438 ]
+640 silly gunzTarPerm extractEntry examples/js/controllers/BasicCenterGeoIPController.js
+641 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicCenterGeoIPController.js',
+641 silly gunzTarPerm   436,
+641 silly gunzTarPerm   438 ]
+642 silly gunzTarPerm extractEntry examples/js/controllers/Paths3000ItemsController.js
+643 silly gunzTarPerm modified mode [ 'examples/js/controllers/Paths3000ItemsController.js',
+643 silly gunzTarPerm   436,
+643 silly gunzTarPerm   438 ]
+644 silly gunzTarPerm extractEntry examples/js/controllers/BasicCenterController.js
+645 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicCenterController.js', 436, 438 ]
+646 silly gunzTarPerm extractEntry examples/js/controllers/PathsAdvancedController.js
+647 silly gunzTarPerm modified mode [ 'examples/js/controllers/PathsAdvancedController.js',
+647 silly gunzTarPerm   436,
+647 silly gunzTarPerm   438 ]
+648 silly gunzTarPerm extractEntry examples/js/controllers/BasicCenterAutodiscoverController.js
+649 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicCenterAutodiscoverController.js',
+649 silly gunzTarPerm   436,
+649 silly gunzTarPerm   438 ]
+650 silly gunzTarPerm extractEntry examples/js/controllers/PathsAjaxLoadController.js
+651 silly gunzTarPerm modified mode [ 'examples/js/controllers/PathsAjaxLoadController.js',
+651 silly gunzTarPerm   436,
+651 silly gunzTarPerm   438 ]
+652 silly gunzTarPerm extractEntry examples/js/controllers/BasicBoundsNominatimController.js
+653 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicBoundsNominatimController.js',
+653 silly gunzTarPerm   436,
+653 silly gunzTarPerm   438 ]
+654 silly gunzTarPerm extractEntry examples/js/controllers/PathsChangeInGroupLayerController.js
+655 silly gunzTarPerm modified mode [ 'examples/js/controllers/PathsChangeInGroupLayerController.js',
+655 silly gunzTarPerm   436,
+655 silly gunzTarPerm   438 ]
+656 silly gunzTarPerm extractEntry examples/js/controllers/BasicBoundsController.js
+657 silly gunzTarPerm modified mode [ 'examples/js/controllers/BasicBoundsController.js', 436, 438 ]
+658 silly gunzTarPerm extractEntry examples/js/controllers/PathsDecorationsSimpleController.js
+659 silly gunzTarPerm modified mode [ 'examples/js/controllers/PathsDecorationsSimpleController.js',
+659 silly gunzTarPerm   436,
+659 silly gunzTarPerm   438 ]
+660 silly gunzTarPerm extractEntry examples/js/controllers/LayersHideBaselayerOnSelectorController.js
+661 silly gunzTarPerm modified mode [ 'examples/js/controllers/LayersHideBaselayerOnSelectorController.js',
+661 silly gunzTarPerm   436,
+661 silly gunzTarPerm   438 ]
+662 silly gunzTarPerm extractEntry examples/json/README
+663 silly gunzTarPerm modified mode [ 'examples/json/README', 436, 438 ]
+664 silly gunzTarPerm extractEntry examples/json/heat-points.json
+665 silly gunzTarPerm modified mode [ 'examples/json/heat-points.json', 436, 438 ]
+666 silly gunzTarPerm extractEntry examples/json/USA.geo.json
+667 silly gunzTarPerm modified mode [ 'examples/json/USA.geo.json', 436, 438 ]
+668 silly gunzTarPerm extractEntry examples/json/all.json
+669 silly gunzTarPerm modified mode [ 'examples/json/all.json', 436, 438 ]
+670 silly gunzTarPerm extractEntry examples/json/countries.geo.json
+671 silly gunzTarPerm modified mode [ 'examples/json/countries.geo.json', 436, 438 ]
+672 silly gunzTarPerm extractEntry examples/json/examples.json
+673 silly gunzTarPerm modified mode [ 'examples/json/examples.json', 436, 438 ]
+674 silly gunzTarPerm extractEntry examples/json/features.json
+675 silly gunzTarPerm modified mode [ 'examples/json/features.json', 436, 438 ]
+676 silly gunzTarPerm extractEntry examples/json/JPN.geo.json
+677 silly gunzTarPerm modified mode [ 'examples/json/JPN.geo.json', 436, 438 ]
+678 silly gunzTarPerm extractEntry examples/json/major_cities.json
+679 silly gunzTarPerm modified mode [ 'examples/json/major_cities.json', 436, 438 ]
+680 silly gunzTarPerm extractEntry examples/json/mockupTenGrid.json
+681 silly gunzTarPerm modified mode [ 'examples/json/mockupTenGrid.json', 436, 438 ]
+682 silly gunzTarPerm extractEntry examples/json/mockupZeroOneGrid.json
+683 silly gunzTarPerm modified mode [ 'examples/json/mockupZeroOneGrid.json', 436, 438 ]
+684 silly gunzTarPerm extractEntry examples/json/paths.json
+685 silly gunzTarPerm modified mode [ 'examples/json/paths.json', 436, 438 ]
+686 silly gunzTarPerm extractEntry examples/json/realworld.10000.json
+687 silly gunzTarPerm modified mode [ 'examples/json/realworld.10000.json', 436, 438 ]
+688 silly gunzTarPerm extractEntry examples/json/toronto1.json
+689 silly gunzTarPerm modified mode [ 'examples/json/toronto1.json', 436, 438 ]
+690 silly gunzTarPerm extractEntry examples/json/toronto2.json
+691 silly gunzTarPerm modified mode [ 'examples/json/toronto2.json', 436, 438 ]
+692 silly gunzTarPerm extractEntry examples/markers-cluster-issue.html
+693 silly gunzTarPerm modified mode [ 'examples/markers-cluster-issue.html', 436, 438 ]
+694 silly gunzTarPerm extractEntry examples/markers-updates.html
+695 silly gunzTarPerm modified mode [ 'examples/markers-updates.html', 436, 438 ]
+696 silly gunzTarPerm extractEntry examples/partials/example.html
+697 silly gunzTarPerm modified mode [ 'examples/partials/example.html', 436, 438 ]
+698 silly gunzTarPerm extractEntry examples/partials/source.html
+699 silly gunzTarPerm modified mode [ 'examples/partials/source.html', 436, 438 ]
+700 silly gunzTarPerm extractEntry examples/views/template.html
+701 silly gunzTarPerm modified mode [ 'examples/views/template.html', 436, 438 ]
+702 silly gunzTarPerm extractEntry grunt/karma.json
+703 silly gunzTarPerm modified mode [ 'grunt/karma.json', 436, 438 ]
+704 silly gunzTarPerm extractEntry grunt/aliases.yaml
+705 silly gunzTarPerm modified mode [ 'grunt/aliases.yaml', 436, 438 ]
+706 silly gunzTarPerm extractEntry grunt/clean.json
+707 silly gunzTarPerm modified mode [ 'grunt/clean.json', 436, 438 ]
+708 silly gunzTarPerm extractEntry grunt/concat.json
+709 silly gunzTarPerm modified mode [ 'grunt/concat.json', 436, 438 ]
+710 silly gunzTarPerm extractEntry grunt/connect.json
+711 silly gunzTarPerm modified mode [ 'grunt/connect.json', 436, 438 ]
+712 silly gunzTarPerm extractEntry grunt/jscs.json
+713 silly gunzTarPerm modified mode [ 'grunt/jscs.json', 436, 438 ]
+714 silly gunzTarPerm extractEntry grunt/jshint.json
+715 silly gunzTarPerm modified mode [ 'grunt/jshint.json', 436, 438 ]
+716 silly gunzTarPerm extractEntry grunt/bower.json
+717 silly gunzTarPerm modified mode [ 'grunt/bower.json', 436, 438 ]
+718 silly gunzTarPerm extractEntry grunt/ngAnnotate.json
+719 silly gunzTarPerm modified mode [ 'grunt/ngAnnotate.json', 436, 438 ]
+720 silly gunzTarPerm extractEntry grunt/open.json
+721 silly gunzTarPerm modified mode [ 'grunt/open.json', 436, 438 ]
+722 silly gunzTarPerm extractEntry grunt/protractor.json
+723 silly gunzTarPerm modified mode [ 'grunt/protractor.json', 436, 438 ]
+724 silly gunzTarPerm extractEntry grunt/shell.json
+725 silly gunzTarPerm modified mode [ 'grunt/shell.json', 436, 438 ]
+726 silly gunzTarPerm extractEntry grunt/uglify.json
+727 silly gunzTarPerm modified mode [ 'grunt/uglify.json', 436, 438 ]
+728 silly gunzTarPerm extractEntry grunt/watch.json
+729 silly gunzTarPerm modified mode [ 'grunt/watch.json', 436, 438 ]
+730 silly gunzTarPerm extractEntry src/directives/bounds.js
+731 silly gunzTarPerm modified mode [ 'src/directives/bounds.js', 436, 438 ]
+732 silly gunzTarPerm extractEntry src/directives/eventBroadcast.js
+733 silly gunzTarPerm modified mode [ 'src/directives/eventBroadcast.js', 436, 438 ]
+734 silly gunzTarPerm extractEntry src/directives/geojson.js
+735 silly gunzTarPerm modified mode [ 'src/directives/geojson.js', 436, 438 ]
+736 silly gunzTarPerm extractEntry src/directives/layercontrol.js
+737 silly gunzTarPerm modified mode [ 'src/directives/layercontrol.js', 436, 438 ]
+738 silly gunzTarPerm extractEntry src/directives/decorations.js
+739 silly gunzTarPerm modified mode [ 'src/directives/decorations.js', 436, 438 ]
+740 silly gunzTarPerm extractEntry src/directives/leaflet.js
+741 silly gunzTarPerm modified mode [ 'src/directives/leaflet.js', 436, 438 ]
+742 silly gunzTarPerm extractEntry src/directives/legend.js
+743 silly gunzTarPerm modified mode [ 'src/directives/legend.js', 436, 438 ]
+744 silly gunzTarPerm extractEntry src/directives/markers.js
+745 silly gunzTarPerm modified mode [ 'src/directives/markers.js', 436, 438 ]
+746 silly gunzTarPerm extractEntry src/directives/maxbounds.js
+747 silly gunzTarPerm modified mode [ 'src/directives/maxbounds.js', 436, 438 ]
+748 silly gunzTarPerm extractEntry src/directives/paths.js
+749 silly gunzTarPerm modified mode [ 'src/directives/paths.js', 436, 438 ]
+750 silly gunzTarPerm extractEntry src/directives/controls.js
+751 silly gunzTarPerm modified mode [ 'src/directives/controls.js', 436, 438 ]
+752 silly gunzTarPerm extractEntry src/directives/tiles.js
+753 silly gunzTarPerm modified mode [ 'src/directives/tiles.js', 436, 438 ]
+754 silly gunzTarPerm extractEntry src/directives/center.js
+755 silly gunzTarPerm modified mode [ 'src/directives/center.js', 436, 438 ]
+756 silly gunzTarPerm extractEntry src/directives/watchOptions.js
+757 silly gunzTarPerm modified mode [ 'src/directives/watchOptions.js', 436, 438 ]
+758 silly gunzTarPerm extractEntry src/directives/layers.js
+759 silly gunzTarPerm modified mode [ 'src/directives/layers.js', 436, 438 ]
+760 silly gunzTarPerm extractEntry src/header-MIT-license.txt
+761 silly gunzTarPerm modified mode [ 'src/header-MIT-license.txt', 436, 438 ]
+762 silly gunzTarPerm extractEntry src/services/nominatim.js
+763 silly gunzTarPerm modified mode [ 'src/services/nominatim.js', 436, 438 ]
+764 silly gunzTarPerm extractEntry src/services/leafletDirectiveControlsHelpers.js
+765 silly gunzTarPerm modified mode [ 'src/services/leafletDirectiveControlsHelpers.js', 436, 438 ]
+766 silly gunzTarPerm extractEntry src/services/leafletGeoJsonHelpers.js
+767 silly gunzTarPerm modified mode [ 'src/services/leafletGeoJsonHelpers.js', 436, 438 ]
+768 silly gunzTarPerm extractEntry src/services/leafletHelpers.js
+769 silly gunzTarPerm modified mode [ 'src/services/leafletHelpers.js', 436, 438 ]
+770 silly gunzTarPerm extractEntry src/services/leafletData.js
+771 silly gunzTarPerm modified mode [ 'src/services/leafletData.js', 436, 438 ]
+772 silly gunzTarPerm extractEntry src/services/leafletLayerHelpers.js
+773 silly gunzTarPerm modified mode [ 'src/services/leafletLayerHelpers.js', 436, 438 ]
+774 silly gunzTarPerm extractEntry src/services/leafletLegendHelpers.js
+775 silly gunzTarPerm modified mode [ 'src/services/leafletLegendHelpers.js', 436, 438 ]
+776 silly gunzTarPerm extractEntry src/services/leafletMapDefaults.js
+777 silly gunzTarPerm modified mode [ 'src/services/leafletMapDefaults.js', 436, 438 ]
+778 silly gunzTarPerm extractEntry src/services/leafletMarkersHelpers.js
+779 silly gunzTarPerm modified mode [ 'src/services/leafletMarkersHelpers.js', 436, 438 ]
+780 silly gunzTarPerm extractEntry src/services/leafletPathsHelpers.js
+781 silly gunzTarPerm modified mode [ 'src/services/leafletPathsHelpers.js', 436, 438 ]
+782 silly gunzTarPerm extractEntry src/services/leafletControlHelpers.js
+783 silly gunzTarPerm modified mode [ 'src/services/leafletControlHelpers.js', 436, 438 ]
+784 silly gunzTarPerm extractEntry src/services/leafletWatchHelpers.js
+785 silly gunzTarPerm modified mode [ 'src/services/leafletWatchHelpers.js', 436, 438 ]
+786 silly gunzTarPerm extractEntry src/services/leafletBoundsHelpers.js
+787 silly gunzTarPerm modified mode [ 'src/services/leafletBoundsHelpers.js', 436, 438 ]
+788 silly gunzTarPerm extractEntry src/services/leafletIterators.js
+789 silly gunzTarPerm modified mode [ 'src/services/leafletIterators.js', 436, 438 ]
+790 silly gunzTarPerm extractEntry src/services/events/leafletEventsHelpers.js
+791 silly gunzTarPerm modified mode [ 'src/services/events/leafletEventsHelpers.js', 436, 438 ]
+792 silly gunzTarPerm extractEntry src/services/events/leafletGeoJsonEvents.js
+793 silly gunzTarPerm modified mode [ 'src/services/events/leafletGeoJsonEvents.js', 436, 438 ]
+794 silly gunzTarPerm extractEntry src/services/events/leafletLabelEvents.js
+795 silly gunzTarPerm modified mode [ 'src/services/events/leafletLabelEvents.js', 436, 438 ]
+796 silly gunzTarPerm extractEntry src/services/events/leafletMapEvents.js
+797 silly gunzTarPerm modified mode [ 'src/services/events/leafletMapEvents.js', 436, 438 ]
+798 silly gunzTarPerm extractEntry src/services/events/leafletMarkerEvents.js
+799 silly gunzTarPerm modified mode [ 'src/services/events/leafletMarkerEvents.js', 436, 438 ]
+800 silly gunzTarPerm extractEntry src/services/events/leafletPathEvents.js
+801 silly gunzTarPerm modified mode [ 'src/services/events/leafletPathEvents.js', 436, 438 ]
+802 silly gunzTarPerm extractEntry .travis.yml
+803 silly gunzTarPerm modified mode [ '.travis.yml', 436, 438 ]
+804 silly gunzTarPerm extractEntry test/karma-unit.conf.js
+805 silly gunzTarPerm modified mode [ 'test/karma-unit.conf.js', 436, 438 ]
+806 silly gunzTarPerm extractEntry test/protractor.conf.js
+807 silly gunzTarPerm modified mode [ 'test/protractor.conf.js', 436, 438 ]
+808 silly gunzTarPerm extractEntry test/e2e/0100-basic-first-example.js
+809 silly gunzTarPerm modified mode [ 'test/e2e/0100-basic-first-example.js', 436, 438 ]
+810 silly gunzTarPerm extractEntry test/e2e/0104-basic-custom-parameters-example.js
+811 silly gunzTarPerm modified mode [ 'test/e2e/0104-basic-custom-parameters-example.js', 436, 438 ]
+812 silly gunzTarPerm extractEntry test/e2e/0105-basic-bounds-example.js
+813 silly gunzTarPerm modified mode [ 'test/e2e/0105-basic-bounds-example.js', 436, 438 ]
+814 silly gunzTarPerm extractEntry test/e2e/0106-basic-maxbounds-example.js
+815 silly gunzTarPerm modified mode [ 'test/e2e/0106-basic-maxbounds-example.js', 436, 438 ]
+816 silly gunzTarPerm extractEntry test/e2e/0107-basic-tiles-example.js
+817 silly gunzTarPerm modified mode [ 'test/e2e/0107-basic-tiles-example.js', 436, 438 ]
+818 silly gunzTarPerm extractEntry test/e2e/0103-basic-center-url-hash-example.js
+819 silly gunzTarPerm modified mode [ 'test/e2e/0103-basic-center-url-hash-example.js', 436, 438 ]
+820 silly gunzTarPerm extractEntry test/e2e/0201-layers-simple-example.js
+821 silly gunzTarPerm modified mode [ 'test/e2e/0201-layers-simple-example.js', 436, 438 ]
+822 silly gunzTarPerm extractEntry test/e2e/0202-layers-overlays-simple-example.js
+823 silly gunzTarPerm modified mode [ 'test/e2e/0202-layers-overlays-simple-example.js', 436, 438 ]
+824 silly gunzTarPerm extractEntry test/e2e/0203-layers-imageoverlay-example.js
+825 silly gunzTarPerm modified mode [ 'test/e2e/0203-layers-imageoverlay-example.js', 436, 438 ]
+826 silly gunzTarPerm extractEntry test/e2e/0205-layers-googlemaps-example.js
+827 silly gunzTarPerm modified mode [ 'test/e2e/0205-layers-googlemaps-example.js', 436, 438 ]
+828 silly gunzTarPerm extractEntry test/e2e/0301-paths-types-example.js
+829 silly gunzTarPerm modified mode [ 'test/e2e/0301-paths-types-example.js', 436, 438 ]
+830 silly gunzTarPerm extractEntry test/e2e/0101-basic-center-example.js
+831 silly gunzTarPerm modified mode [ 'test/e2e/0101-basic-center-example.js', 436, 438 ]
+832 silly gunzTarPerm extractEntry test/e2e/0501-markers-events-add-example.js
+833 silly gunzTarPerm modified mode [ 'test/e2e/0501-markers-events-add-example.js', 436, 438 ]
+834 silly gunzTarPerm extractEntry test/e2e/0108-basic-tiles-zoom-changer-example.js
+835 silly gunzTarPerm modified mode [ 'test/e2e/0108-basic-tiles-zoom-changer-example.js', 436, 438 ]
+836 silly gunzTarPerm extractEntry test/unit/tilesDirectiveSpec.js
+837 silly gunzTarPerm modified mode [ 'test/unit/tilesDirectiveSpec.js', 509, 511 ]
+838 silly gunzTarPerm extractEntry test/unit/decorationsDirectiveSpec.js
+839 silly gunzTarPerm modified mode [ 'test/unit/decorationsDirectiveSpec.js', 436, 438 ]
+840 silly gunzTarPerm extractEntry test/unit/eventsDirectiveSpec.js
+841 silly gunzTarPerm modified mode [ 'test/unit/eventsDirectiveSpec.js', 509, 511 ]
+842 silly gunzTarPerm extractEntry test/unit/boundsDirectiveSpec.js
+843 silly gunzTarPerm modified mode [ 'test/unit/boundsDirectiveSpec.js', 509, 511 ]
+844 silly gunzTarPerm extractEntry test/unit/leafletDirectiveSpec.js
+845 silly gunzTarPerm modified mode [ 'test/unit/leafletDirectiveSpec.js', 509, 511 ]
+846 silly gunzTarPerm extractEntry test/unit/maxboundsDirectiveSpec.js
+847 silly gunzTarPerm modified mode [ 'test/unit/maxboundsDirectiveSpec.js', 509, 511 ]
+848 silly gunzTarPerm extractEntry test/unit/pathsDirectiveSpec.js
+849 silly gunzTarPerm modified mode [ 'test/unit/pathsDirectiveSpec.js', 509, 511 ]
+850 silly gunzTarPerm extractEntry test/unit/bootstrap.coffee
+851 silly gunzTarPerm modified mode [ 'test/unit/bootstrap.coffee', 436, 438 ]
+852 silly gunzTarPerm extractEntry test/unit/centerDirectiveSpec.coffee
+853 silly gunzTarPerm modified mode [ 'test/unit/centerDirectiveSpec.coffee', 436, 438 ]
+854 silly gunzTarPerm extractEntry test/unit/markersDirectiveSpec.coffee
+855 silly gunzTarPerm modified mode [ 'test/unit/markersDirectiveSpec.coffee', 509, 511 ]
+856 silly gunzTarPerm extractEntry test/unit/geojsonDirectiveSpec.coffee
+857 silly gunzTarPerm modified mode [ 'test/unit/geojsonDirectiveSpec.coffee', 509, 511 ]
+858 silly gunzTarPerm extractEntry test/unit/layersDirective/layersDirective.creationSpec.js
+859 silly gunzTarPerm modified mode [ 'test/unit/layersDirective/layersDirective.creationSpec.js',
+859 silly gunzTarPerm   509,
+859 silly gunzTarPerm   511 ]
+860 silly gunzTarPerm extractEntry test/unit/layersDirective/layersDirective.overlays.pathsSpec.js
+861 silly gunzTarPerm modified mode [ 'test/unit/layersDirective/layersDirective.overlays.pathsSpec.js',
+861 silly gunzTarPerm   509,
+861 silly gunzTarPerm   511 ]
+862 silly gunzTarPerm extractEntry test/unit/layersDirective/layersDirective.overlaysSpec.js
+863 silly gunzTarPerm modified mode [ 'test/unit/layersDirective/layersDirective.overlaysSpec.js',
+863 silly gunzTarPerm   509,
+863 silly gunzTarPerm   511 ]
+864 silly gunzTarPerm extractEntry test/unit/layersDirective/layersDirective.twomapsSpec.js
+865 silly gunzTarPerm modified mode [ 'test/unit/layersDirective/layersDirective.twomapsSpec.js',
+865 silly gunzTarPerm   509,
+865 silly gunzTarPerm   511 ]
+866 silly gunzTarPerm extractEntry test/unit/layersDirective/layersDirective.watch.markersSpec.js
+867 silly gunzTarPerm modified mode [ 'test/unit/layersDirective/layersDirective.watch.markersSpec.js',
+867 silly gunzTarPerm   509,
+867 silly gunzTarPerm   511 ]
+868 silly gunzTarPerm extractEntry test/unit/layersDirective/layersDirective.watchSpec.js
+869 silly gunzTarPerm modified mode [ 'test/unit/layersDirective/layersDirective.watchSpec.js',
+869 silly gunzTarPerm   509,
+869 silly gunzTarPerm   511 ]
+870 silly gunzTarPerm extractEntry test/unit/layersDirective/layersDirective.overlays.markersSpec.coffee
+871 silly gunzTarPerm modified mode [ 'test/unit/layersDirective/layersDirective.overlays.markersSpec.coffee',
+871 silly gunzTarPerm   509,
+871 silly gunzTarPerm   511 ]
+872 silly gunzTarPerm extractEntry test/unit/plugin/markerPluginVectorMarkersSpec.js
+873 silly gunzTarPerm modified mode [ 'test/unit/plugin/markerPluginVectorMarkersSpec.js', 436, 438 ]
+874 silly gunzTarPerm extractEntry test/unit/services/leafletGeoHelpersSpec.coffee
+875 silly gunzTarPerm modified mode [ 'test/unit/services/leafletGeoHelpersSpec.coffee', 436, 438 ]
+876 silly gunzTarPerm extractEntry test/unit/services/leafletHelpersSpec.coffee
+877 silly gunzTarPerm modified mode [ 'test/unit/services/leafletHelpersSpec.coffee', 436, 438 ]
+878 silly gunzTarPerm extractEntry test/unit/services/leafletIteratorsSpec.coffee
+879 silly gunzTarPerm modified mode [ 'test/unit/services/leafletIteratorsSpec.coffee', 436, 438 ]
+880 silly gunzTarPerm extractEntry test/unit/leafletData/leafletDataService.DirectiveControlsSpec.coffee
+881 silly gunzTarPerm modified mode [ 'test/unit/leafletData/leafletDataService.DirectiveControlsSpec.coffee',
+881 silly gunzTarPerm   436,
+881 silly gunzTarPerm   438 ]
+882 silly gunzTarPerm extractEntry test/unit/leafletData/leafletDataSpec.coffee
+883 silly gunzTarPerm modified mode [ 'test/unit/leafletData/leafletDataSpec.coffee', 436, 438 ]
+884 silly gentlyRm C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\angular-leaflet-directive-678f85a0\node_modules is being purged
+885 verbose gentlyRm don't care about contents; nuking C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\angular-leaflet-directive-678f85a0\node_modules
+886 silly doParallel preinstall 2
+887 silly preinstall angular-leaflet-directive@0.10.0 C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\angular-leaflet-directive-678f85a0
+888 info lifecycle angular-leaflet-directive@0.10.0~preinstall: angular-leaflet-directive@0.10.0
+889 silly preinstall leaflet-control-geocoder@1.5.1 C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\leaflet-control-geocoder-b9fec534
+890 info lifecycle leaflet-control-geocoder@1.5.1~preinstall: leaflet-control-geocoder@1.5.1
+891 silly lifecycle angular-leaflet-directive@0.10.0~preinstall: no script for preinstall, continuing
+892 silly lifecycle leaflet-control-geocoder@1.5.1~preinstall: no script for preinstall, continuing
+893 silly doReverseSerial remove 0
+894 silly doSerial move 0
+895 silly doSerial finalize 2
+896 silly finalize C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\angular-leaflet-directive
+897 silly finalize C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\leaflet-control-geocoder
+898 silly doSerial build 2
+899 silly build angular-leaflet-directive@0.10.0
+900 info linkStuff angular-leaflet-directive@0.10.0
+901 silly linkStuff angular-leaflet-directive@0.10.0 has C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules as its parent node_modules
+902 verbose linkBins angular-leaflet-directive@0.10.0
+903 verbose linkMans angular-leaflet-directive@0.10.0
+904 silly build leaflet-control-geocoder@1.5.1
+905 info linkStuff leaflet-control-geocoder@1.5.1
+906 silly linkStuff leaflet-control-geocoder@1.5.1 has C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules as its parent node_modules
+907 verbose linkBins leaflet-control-geocoder@1.5.1
+908 verbose linkMans leaflet-control-geocoder@1.5.1
+909 silly doSerial global-link 0
+910 silly doParallel update-linked 0
+911 silly doSerial install 2
+912 silly install angular-leaflet-directive@0.10.0 C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\angular-leaflet-directive-678f85a0
+913 info lifecycle angular-leaflet-directive@0.10.0~install: angular-leaflet-directive@0.10.0
+914 silly lifecycle angular-leaflet-directive@0.10.0~install: no script for install, continuing
+915 silly install leaflet-control-geocoder@1.5.1 C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\leaflet-control-geocoder-b9fec534
+916 info lifecycle leaflet-control-geocoder@1.5.1~install: leaflet-control-geocoder@1.5.1
+917 silly lifecycle leaflet-control-geocoder@1.5.1~install: no script for install, continuing
+918 silly doSerial postinstall 2
+919 silly postinstall angular-leaflet-directive@0.10.0 C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\angular-leaflet-directive-678f85a0
+920 info lifecycle angular-leaflet-directive@0.10.0~postinstall: angular-leaflet-directive@0.10.0
+921 silly lifecycle angular-leaflet-directive@0.10.0~postinstall: no script for postinstall, continuing
+922 silly postinstall leaflet-control-geocoder@1.5.1 C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging\leaflet-control-geocoder-b9fec534
+923 info lifecycle leaflet-control-geocoder@1.5.1~postinstall: leaflet-control-geocoder@1.5.1
+924 verbose lifecycle leaflet-control-geocoder@1.5.1~postinstall: unsafe-perm in lifecycle true
+925 verbose lifecycle leaflet-control-geocoder@1.5.1~postinstall: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\leaflet-control-geocoder\node_modules\.bin;C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.bin;C:\Program Files\nodejs;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Ruby23-x64\bin;C:\Users\Pepa\.dnx\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Pepa\AppData\Roaming\npm
+926 verbose lifecycle leaflet-control-geocoder@1.5.1~postinstall: CWD: C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\leaflet-control-geocoder
+927 silly lifecycle leaflet-control-geocoder@1.5.1~postinstall: Args: [ '/d /s /c', 'sh ./scripts/build.sh' ]
+928 silly lifecycle leaflet-control-geocoder@1.5.1~postinstall: Returned: code: 1  signal: null
+929 info lifecycle leaflet-control-geocoder@1.5.1~postinstall: Failed to exec postinstall script
+930 verbose unlock done using C:\Users\Pepa\AppData\Roaming\npm-cache\_locks\staging-8b3df61adb3791bd.lock for C:\Users\Pepa\Documents\GitProjects\MapEvaluation\node_modules\.staging
+931 silly rollbackFailedOptional Starting
+932 silly rollbackFailedOptional Finishing
+933 silly runTopLevelLifecycles Starting
+934 silly runTopLevelLifecycles Finishing
+935 silly install printInstalled
+936 verbose stack Error: leaflet-control-geocoder@1.5.1 postinstall: `sh ./scripts/build.sh`
+936 verbose stack Exit status 1
+936 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:239:16)
+936 verbose stack     at emitTwo (events.js:100:13)
+936 verbose stack     at EventEmitter.emit (events.js:185:7)
+936 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+936 verbose stack     at emitTwo (events.js:100:13)
+936 verbose stack     at ChildProcess.emit (events.js:185:7)
+936 verbose stack     at maybeClose (internal/child_process.js:850:16)
+936 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+937 verbose pkgid leaflet-control-geocoder@1.5.1
+938 verbose cwd C:\Users\Pepa\Documents\GitProjects\MapEvaluation
+939 error Windows_NT 10.0.10586
+940 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "leaflet-control-geocoder"
+941 error node v5.10.1
+942 error npm  v3.8.3
+943 error code ELIFECYCLE
+944 error leaflet-control-geocoder@1.5.1 postinstall: `sh ./scripts/build.sh`
+944 error Exit status 1
+945 error Failed at the leaflet-control-geocoder@1.5.1 postinstall script 'sh ./scripts/build.sh'.
+945 error Make sure you have the latest version of node.js and npm installed.
+945 error If you do, this is most likely a problem with the leaflet-control-geocoder package,
+945 error not with npm itself.
+945 error Tell the author that this fails on your system:
+945 error     sh ./scripts/build.sh
+945 error You can get information on how to open an issue for this project with:
+945 error     npm bugs leaflet-control-geocoder
+945 error Or if that isn't available, you can get their info via:
+945 error     npm owner ls leaflet-control-geocoder
+945 error There is likely additional logging output above.
+946 verbose exit [ 1, true ]
