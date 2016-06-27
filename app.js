@@ -6,13 +6,18 @@ var app = angular.module( 'myApp', ['ngRoute', 'leaflet-directive'] );
 
             //route for the standard page
             .when('/', {
-                templateUrl : 'Leaflet/leaflet.html',
-                controller  : 'leafletController'
+                templateUrl : 'leafletUiLeaflet/leafletUiLeaflet.html',
+                controller  : 'leafletUiLeafletController'
             })
 
-            .when('/leaflet', {
-                templateUrl : 'Leaflet/leaflet.html',
-                controller  : 'leafletController'
+            .when('/leafletUiLeaflet', {
+                templateUrl : 'leafletUiLeaflet/leafletUiLeaflet.html',
+                controller  : 'leafletUiLeafletController'
+            })
+
+            .when('/leafletAngularLeafletDirective', {
+                templateUrl : 'leafletAngularLeafletDirective/leafletAngularLeafletDirective.html',
+                controller  : 'leafletAngularLeafletDirectiveController'
             })
 
             .when('/mapBox', {

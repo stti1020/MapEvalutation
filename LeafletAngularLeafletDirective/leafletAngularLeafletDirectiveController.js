@@ -1,6 +1,6 @@
 
 angular.module( 'myApp')
-	.controller('leafletController', ['$scope', function($scope) {
+	.controller('leafletAngularLeafletDirectiveController', ['$scope', function($scope) {
 
 
 	// make map
@@ -22,8 +22,22 @@ angular.module( 'myApp')
 	        },
 	        defaults: {
 	            scrollWheelZoom: false
+	        },
+
+	        routing: {
+
+	        	waypoints: [
+		    L.latLng(57.74, 11.94),
+		    L.latLng(57.6792, 11.949)
+		  ]
+
 	        }
 	    });
 
-
+	 //    L.Routing.control({
+		//   waypoints: [
+		//     L.latLng(57.74, 11.94),
+		//     L.latLng(57.6792, 11.949)
+		//   ]
+		// }).addTo(map);
 }]);

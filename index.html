@@ -7,6 +7,9 @@
 		 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
 		 <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
 
+		<!-- load leaflet routin machine css -->
+		 <link rel="stylesheet" href="node_modules/leaflet-routing-machine/dist/leaflet-routing-machine.css"/>
+
 		 <!-- load own mapBox via CDN -->
 		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.js'></script>
 	    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.css' rel='stylesheet' />
@@ -33,7 +36,8 @@
 		<!-- the navigation -->
 		<nav id="navigation" class="clearfix">
 		  <ul>
-		    <li><a href="#leaflet">Leaflet</a></li>
+		    <li><a href="#leafletUiLeaflet">Leaflet ui-leaflet</a></li>
+		    <li><a href="#leafletAngularLeafletDirective">Leaflet angular-leaflet-directive</a></li>
 		    <li><a href="#mapBox">MapBox</a></li>
 		    <li><a href="#mapQuest">MapQuest</a></li>
 		  </ul>
@@ -46,11 +50,14 @@
 
 		<!-- import libs -->
 		<script src="node_modules/angular-leaflet-directive/dist/angular-leaflet-directive.js"></script>
+		<script src="node_modules/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+
 
 		<!-- import angular controller -->
 		<script src="app.js"></script>
 	    <script src="mapQuest/mapQuestController.js"></script>
 	    <script src="mapBox/mapBoxController.js"></script>
-	    <script src="leaflet/laefletController.js"></script>
+	    <script src="leafletUiLeaflet/leafletUiLeafletController.js"></script>
+	    <script src="leafletAngularLeafletDirective/leafletAngularLeafletDirectiveController.js"></script>
 	</body>
 </html>>
