@@ -5,25 +5,32 @@ angular.module( 'myApp')
 	// make map
 	angular.extend($scope, {
 	    center: {
-	        lat: 57.74,
-	        lng: 11.94,
+	        lat: 49.011398,
+	        lng: 8.423681,
 	        zoom: 8
 	    }
 	});
 
+	//get leaflet via id from html
 	leafletData.getMap("mymap").then(function(map) {
-
-		 alert('I have accessed the map.');
-		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-		    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-		}).addTo(map);
 
 		L.Routing.control({
 		    waypoints: [
-		        L.latLng(57.74, 11.94),
-		        L.latLng(57.6792, 11.949)
-		    ]
+		        L.latLng(49.011398, 8.423681),
+		        L.latLng(49.014575, 8.388844)
+		    ],
+		   
+ 			routeWhileDragging: true
+
 		}).addTo(map);
-    });
+
+		L.marker([49.011398, 8.423681]).addTo(map)
+		    .bindPopup('Von Karl Wilhelm Platz')
+		    .openPopup();
+
+		L.marker([49.014575, 8.388844]).addTo(map)
+		    .bindPopup('Nach Hochschule Karlsruhe');
+    	});
+
 
 }]);
